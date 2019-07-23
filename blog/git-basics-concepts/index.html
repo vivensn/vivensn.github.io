@@ -1,0 +1,749 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.9638b81f65478719faed.css">/*!
+  Ionicons, v4.6.1
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+
+  Android-style icons originally built by Google’s
+  Material Design Icons: https://github.com/google/material-design-icons
+  used under CC BY http://creativecommons.org/licenses/by/4.0/
+  Modified icons to fit ionicon’s grid from original.
+*/@font-face{font-family:Ionicons;src:url(/static/ionicons-a558ac78b554eefa181737749366a91c.eot);src:url(/static/ionicons-a558ac78b554eefa181737749366a91c.eot#iefix) format("embedded-opentype"),url(/static/ionicons-96f1c901c087fb64019f7665f7f8aca6.woff2) format("woff2"),url(/static/ionicons-99b863497156d4478ec3489fefb3815c.woff) format("woff"),url(/static/ionicons-ef4a9f280b0e411ddf6c930a0a37c2b0.ttf) format("truetype"),url(/static/ionicons-d659209138fc7c28c23a48496bdd1c8b.svg#Ionicons) format("svg");font-weight:400;font-style:normal}.ion,.ion-ios-add-circle-outline:before,.ion-ios-add-circle:before,.ion-ios-add:before,.ion-ios-airplane:before,.ion-ios-alarm:before,.ion-ios-albums:before,.ion-ios-alert:before,.ion-ios-american-football:before,.ion-ios-analytics:before,.ion-ios-aperture:before,.ion-ios-apps:before,.ion-ios-appstore:before,.ion-ios-archive:before,.ion-ios-arrow-back:before,.ion-ios-arrow-down:before,.ion-ios-arrow-dropdown-circle:before,.ion-ios-arrow-dropdown:before,.ion-ios-arrow-dropleft-circle:before,.ion-ios-arrow-dropleft:before,.ion-ios-arrow-dropright-circle:before,.ion-ios-arrow-dropright:before,.ion-ios-arrow-dropup-circle:before,.ion-ios-arrow-dropup:before,.ion-ios-arrow-forward:before,.ion-ios-arrow-round-back:before,.ion-ios-arrow-round-down:before,.ion-ios-arrow-round-forward:before,.ion-ios-arrow-round-up:before,.ion-ios-arrow-up:before,.ion-ios-at:before,.ion-ios-attach:before,.ion-ios-backspace:before,.ion-ios-barcode:before,.ion-ios-baseball:before,.ion-ios-basket:before,.ion-ios-basketball:before,.ion-ios-battery-charging:before,.ion-ios-battery-dead:before,.ion-ios-battery-full:before,.ion-ios-beaker:before,.ion-ios-bed:before,.ion-ios-beer:before,.ion-ios-bicycle:before,.ion-ios-bluetooth:before,.ion-ios-boat:before,.ion-ios-body:before,.ion-ios-bonfire:before,.ion-ios-book:before,.ion-ios-bookmark:before,.ion-ios-bookmarks:before,.ion-ios-bowtie:before,.ion-ios-briefcase:before,.ion-ios-browsers:before,.ion-ios-brush:before,.ion-ios-bug:before,.ion-ios-build:before,.ion-ios-bulb:before,.ion-ios-bus:before,.ion-ios-business:before,.ion-ios-cafe:before,.ion-ios-calculator:before,.ion-ios-calendar:before,.ion-ios-call:before,.ion-ios-camera:before,.ion-ios-car:before,.ion-ios-card:before,.ion-ios-cart:before,.ion-ios-cash:before,.ion-ios-cellular:before,.ion-ios-chatboxes:before,.ion-ios-chatbubbles:before,.ion-ios-checkbox-outline:before,.ion-ios-checkbox:before,.ion-ios-checkmark-circle-outline:before,.ion-ios-checkmark-circle:before,.ion-ios-checkmark:before,.ion-ios-clipboard:before,.ion-ios-clock:before,.ion-ios-close-circle-outline:before,.ion-ios-close-circle:before,.ion-ios-close:before,.ion-ios-cloud-circle:before,.ion-ios-cloud-done:before,.ion-ios-cloud-download:before,.ion-ios-cloud-outline:before,.ion-ios-cloud-upload:before,.ion-ios-cloud:before,.ion-ios-cloudy-night:before,.ion-ios-cloudy:before,.ion-ios-code-download:before,.ion-ios-code-working:before,.ion-ios-code:before,.ion-ios-cog:before,.ion-ios-color-fill:before,.ion-ios-color-filter:before,.ion-ios-color-palette:before,.ion-ios-color-wand:before,.ion-ios-compass:before,.ion-ios-construct:before,.ion-ios-contact:before,.ion-ios-contacts:before,.ion-ios-contract:before,.ion-ios-contrast:before,.ion-ios-copy:before,.ion-ios-create:before,.ion-ios-crop:before,.ion-ios-cube:before,.ion-ios-cut:before,.ion-ios-desktop:before,.ion-ios-disc:before,.ion-ios-document:before,.ion-ios-done-all:before,.ion-ios-download:before,.ion-ios-easel:before,.ion-ios-egg:before,.ion-ios-exit:before,.ion-ios-expand:before,.ion-ios-eye-off:before,.ion-ios-eye:before,.ion-ios-fastforward:before,.ion-ios-female:before,.ion-ios-filing:before,.ion-ios-film:before,.ion-ios-finger-print:before,.ion-ios-fitness:before,.ion-ios-flag:before,.ion-ios-flame:before,.ion-ios-flash-off:before,.ion-ios-flash:before,.ion-ios-flashlight:before,.ion-ios-flask:before,.ion-ios-flower:before,.ion-ios-folder-open:before,.ion-ios-folder:before,.ion-ios-football:before,.ion-ios-funnel:before,.ion-ios-gift:before,.ion-ios-git-branch:before,.ion-ios-git-commit:before,.ion-ios-git-compare:before,.ion-ios-git-merge:before,.ion-ios-git-network:before,.ion-ios-git-pull-request:before,.ion-ios-glasses:before,.ion-ios-globe:before,.ion-ios-grid:before,.ion-ios-hammer:before,.ion-ios-hand:before,.ion-ios-happy:before,.ion-ios-headset:before,.ion-ios-heart-dislike:before,.ion-ios-heart-empty:before,.ion-ios-heart-half:before,.ion-ios-heart:before,.ion-ios-help-buoy:before,.ion-ios-help-circle-outline:before,.ion-ios-help-circle:before,.ion-ios-help:before,.ion-ios-home:before,.ion-ios-hourglass:before,.ion-ios-ice-cream:before,.ion-ios-image:before,.ion-ios-images:before,.ion-ios-infinite:before,.ion-ios-information-circle-outline:before,.ion-ios-information-circle:before,.ion-ios-information:before,.ion-ios-jet:before,.ion-ios-journal:before,.ion-ios-key:before,.ion-ios-keypad:before,.ion-ios-laptop:before,.ion-ios-leaf:before,.ion-ios-link:before,.ion-ios-list-box:before,.ion-ios-list:before,.ion-ios-locate:before,.ion-ios-lock:before,.ion-ios-log-in:before,.ion-ios-log-out:before,.ion-ios-magnet:before,.ion-ios-mail-open:before,.ion-ios-mail-unread:before,.ion-ios-mail:before,.ion-ios-male:before,.ion-ios-man:before,.ion-ios-map:before,.ion-ios-medal:before,.ion-ios-medical:before,.ion-ios-medkit:before,.ion-ios-megaphone:before,.ion-ios-menu:before,.ion-ios-mic-off:before,.ion-ios-mic:before,.ion-ios-microphone:before,.ion-ios-moon:before,.ion-ios-more:before,.ion-ios-move:before,.ion-ios-musical-note:before,.ion-ios-musical-notes:before,.ion-ios-navigate:before,.ion-ios-notifications-off:before,.ion-ios-notifications-outline:before,.ion-ios-notifications:before,.ion-ios-nuclear:before,.ion-ios-nutrition:before,.ion-ios-open:before,.ion-ios-options:before,.ion-ios-outlet:before,.ion-ios-paper-plane:before,.ion-ios-paper:before,.ion-ios-partly-sunny:before,.ion-ios-pause:before,.ion-ios-paw:before,.ion-ios-people:before,.ion-ios-person-add:before,.ion-ios-person:before,.ion-ios-phone-landscape:before,.ion-ios-phone-portrait:before,.ion-ios-photos:before,.ion-ios-pie:before,.ion-ios-pin:before,.ion-ios-pint:before,.ion-ios-pizza:before,.ion-ios-planet:before,.ion-ios-play-circle:before,.ion-ios-play:before,.ion-ios-podium:before,.ion-ios-power:before,.ion-ios-pricetag:before,.ion-ios-pricetags:before,.ion-ios-print:before,.ion-ios-pulse:before,.ion-ios-qr-scanner:before,.ion-ios-quote:before,.ion-ios-radio-button-off:before,.ion-ios-radio-button-on:before,.ion-ios-radio:before,.ion-ios-rainy:before,.ion-ios-recording:before,.ion-ios-redo:before,.ion-ios-refresh-circle:before,.ion-ios-refresh:before,.ion-ios-remove-circle-outline:before,.ion-ios-remove-circle:before,.ion-ios-remove:before,.ion-ios-reorder:before,.ion-ios-repeat:before,.ion-ios-resize:before,.ion-ios-restaurant:before,.ion-ios-return-left:before,.ion-ios-return-right:before,.ion-ios-reverse-camera:before,.ion-ios-rewind:before,.ion-ios-ribbon:before,.ion-ios-rocket:before,.ion-ios-rose:before,.ion-ios-sad:before,.ion-ios-save:before,.ion-ios-school:before,.ion-ios-search:before,.ion-ios-send:before,.ion-ios-settings:before,.ion-ios-share-alt:before,.ion-ios-share:before,.ion-ios-shirt:before,.ion-ios-shuffle:before,.ion-ios-skip-backward:before,.ion-ios-skip-forward:before,.ion-ios-snow:before,.ion-ios-speedometer:before,.ion-ios-square-outline:before,.ion-ios-square:before,.ion-ios-star-half:before,.ion-ios-star-outline:before,.ion-ios-star:before,.ion-ios-stats:before,.ion-ios-stopwatch:before,.ion-ios-subway:before,.ion-ios-sunny:before,.ion-ios-swap:before,.ion-ios-switch:before,.ion-ios-sync:before,.ion-ios-tablet-landscape:before,.ion-ios-tablet-portrait:before,.ion-ios-tennisball:before,.ion-ios-text:before,.ion-ios-thermometer:before,.ion-ios-thumbs-down:before,.ion-ios-thumbs-up:before,.ion-ios-thunderstorm:before,.ion-ios-time:before,.ion-ios-timer:before,.ion-ios-today:before,.ion-ios-train:before,.ion-ios-transgender:before,.ion-ios-trash:before,.ion-ios-trending-down:before,.ion-ios-trending-up:before,.ion-ios-trophy:before,.ion-ios-tv:before,.ion-ios-umbrella:before,.ion-ios-undo:before,.ion-ios-unlock:before,.ion-ios-videocam:before,.ion-ios-volume-high:before,.ion-ios-volume-low:before,.ion-ios-volume-mute:before,.ion-ios-volume-off:before,.ion-ios-walk:before,.ion-ios-wallet:before,.ion-ios-warning:before,.ion-ios-watch:before,.ion-ios-water:before,.ion-ios-wifi:before,.ion-ios-wine:before,.ion-ios-woman:before,.ion-logo-android:before,.ion-logo-angular:before,.ion-logo-apple:before,.ion-logo-bitbucket:before,.ion-logo-bitcoin:before,.ion-logo-buffer:before,.ion-logo-chrome:before,.ion-logo-closed-captioning:before,.ion-logo-codepen:before,.ion-logo-css3:before,.ion-logo-designernews:before,.ion-logo-dribbble:before,.ion-logo-dropbox:before,.ion-logo-euro:before,.ion-logo-facebook:before,.ion-logo-flickr:before,.ion-logo-foursquare:before,.ion-logo-freebsd-devil:before,.ion-logo-game-controller-a:before,.ion-logo-game-controller-b:before,.ion-logo-github:before,.ion-logo-google:before,.ion-logo-googleplus:before,.ion-logo-hackernews:before,.ion-logo-html5:before,.ion-logo-instagram:before,.ion-logo-ionic:before,.ion-logo-ionitron:before,.ion-logo-javascript:before,.ion-logo-linkedin:before,.ion-logo-markdown:before,.ion-logo-model-s:before,.ion-logo-no-smoking:before,.ion-logo-nodejs:before,.ion-logo-npm:before,.ion-logo-octocat:before,.ion-logo-pinterest:before,.ion-logo-playstation:before,.ion-logo-polymer:before,.ion-logo-python:before,.ion-logo-reddit:before,.ion-logo-rss:before,.ion-logo-sass:before,.ion-logo-skype:before,.ion-logo-slack:before,.ion-logo-snapchat:before,.ion-logo-steam:before,.ion-logo-tumblr:before,.ion-logo-tux:before,.ion-logo-twitch:before,.ion-logo-twitter:before,.ion-logo-usd:before,.ion-logo-vimeo:before,.ion-logo-vk:before,.ion-logo-whatsapp:before,.ion-logo-windows:before,.ion-logo-wordpress:before,.ion-logo-xbox:before,.ion-logo-xing:before,.ion-logo-yahoo:before,.ion-logo-yen:before,.ion-logo-youtube:before,.ion-md-add-circle-outline:before,.ion-md-add-circle:before,.ion-md-add:before,.ion-md-airplane:before,.ion-md-alarm:before,.ion-md-albums:before,.ion-md-alert:before,.ion-md-american-football:before,.ion-md-analytics:before,.ion-md-aperture:before,.ion-md-apps:before,.ion-md-appstore:before,.ion-md-archive:before,.ion-md-arrow-back:before,.ion-md-arrow-down:before,.ion-md-arrow-dropdown-circle:before,.ion-md-arrow-dropdown:before,.ion-md-arrow-dropleft-circle:before,.ion-md-arrow-dropleft:before,.ion-md-arrow-dropright-circle:before,.ion-md-arrow-dropright:before,.ion-md-arrow-dropup-circle:before,.ion-md-arrow-dropup:before,.ion-md-arrow-forward:before,.ion-md-arrow-round-back:before,.ion-md-arrow-round-down:before,.ion-md-arrow-round-forward:before,.ion-md-arrow-round-up:before,.ion-md-arrow-up:before,.ion-md-at:before,.ion-md-attach:before,.ion-md-backspace:before,.ion-md-barcode:before,.ion-md-baseball:before,.ion-md-basket:before,.ion-md-basketball:before,.ion-md-battery-charging:before,.ion-md-battery-dead:before,.ion-md-battery-full:before,.ion-md-beaker:before,.ion-md-bed:before,.ion-md-beer:before,.ion-md-bicycle:before,.ion-md-bluetooth:before,.ion-md-boat:before,.ion-md-body:before,.ion-md-bonfire:before,.ion-md-book:before,.ion-md-bookmark:before,.ion-md-bookmarks:before,.ion-md-bowtie:before,.ion-md-briefcase:before,.ion-md-browsers:before,.ion-md-brush:before,.ion-md-bug:before,.ion-md-build:before,.ion-md-bulb:before,.ion-md-bus:before,.ion-md-business:before,.ion-md-cafe:before,.ion-md-calculator:before,.ion-md-calendar:before,.ion-md-call:before,.ion-md-camera:before,.ion-md-car:before,.ion-md-card:before,.ion-md-cart:before,.ion-md-cash:before,.ion-md-cellular:before,.ion-md-chatboxes:before,.ion-md-chatbubbles:before,.ion-md-checkbox-outline:before,.ion-md-checkbox:before,.ion-md-checkmark-circle-outline:before,.ion-md-checkmark-circle:before,.ion-md-checkmark:before,.ion-md-clipboard:before,.ion-md-clock:before,.ion-md-close-circle-outline:before,.ion-md-close-circle:before,.ion-md-close:before,.ion-md-cloud-circle:before,.ion-md-cloud-done:before,.ion-md-cloud-download:before,.ion-md-cloud-outline:before,.ion-md-cloud-upload:before,.ion-md-cloud:before,.ion-md-cloudy-night:before,.ion-md-cloudy:before,.ion-md-code-download:before,.ion-md-code-working:before,.ion-md-code:before,.ion-md-cog:before,.ion-md-color-fill:before,.ion-md-color-filter:before,.ion-md-color-palette:before,.ion-md-color-wand:before,.ion-md-compass:before,.ion-md-construct:before,.ion-md-contact:before,.ion-md-contacts:before,.ion-md-contract:before,.ion-md-contrast:before,.ion-md-copy:before,.ion-md-create:before,.ion-md-crop:before,.ion-md-cube:before,.ion-md-cut:before,.ion-md-desktop:before,.ion-md-disc:before,.ion-md-document:before,.ion-md-done-all:before,.ion-md-download:before,.ion-md-easel:before,.ion-md-egg:before,.ion-md-exit:before,.ion-md-expand:before,.ion-md-eye-off:before,.ion-md-eye:before,.ion-md-fastforward:before,.ion-md-female:before,.ion-md-filing:before,.ion-md-film:before,.ion-md-finger-print:before,.ion-md-fitness:before,.ion-md-flag:before,.ion-md-flame:before,.ion-md-flash-off:before,.ion-md-flash:before,.ion-md-flashlight:before,.ion-md-flask:before,.ion-md-flower:before,.ion-md-folder-open:before,.ion-md-folder:before,.ion-md-football:before,.ion-md-funnel:before,.ion-md-gift:before,.ion-md-git-branch:before,.ion-md-git-commit:before,.ion-md-git-compare:before,.ion-md-git-merge:before,.ion-md-git-network:before,.ion-md-git-pull-request:before,.ion-md-glasses:before,.ion-md-globe:before,.ion-md-grid:before,.ion-md-hammer:before,.ion-md-hand:before,.ion-md-happy:before,.ion-md-headset:before,.ion-md-heart-dislike:before,.ion-md-heart-empty:before,.ion-md-heart-half:before,.ion-md-heart:before,.ion-md-help-buoy:before,.ion-md-help-circle-outline:before,.ion-md-help-circle:before,.ion-md-help:before,.ion-md-home:before,.ion-md-hourglass:before,.ion-md-ice-cream:before,.ion-md-image:before,.ion-md-images:before,.ion-md-infinite:before,.ion-md-information-circle-outline:before,.ion-md-information-circle:before,.ion-md-information:before,.ion-md-jet:before,.ion-md-journal:before,.ion-md-key:before,.ion-md-keypad:before,.ion-md-laptop:before,.ion-md-leaf:before,.ion-md-link:before,.ion-md-list-box:before,.ion-md-list:before,.ion-md-locate:before,.ion-md-lock:before,.ion-md-log-in:before,.ion-md-log-out:before,.ion-md-magnet:before,.ion-md-mail-open:before,.ion-md-mail-unread:before,.ion-md-mail:before,.ion-md-male:before,.ion-md-man:before,.ion-md-map:before,.ion-md-medal:before,.ion-md-medical:before,.ion-md-medkit:before,.ion-md-megaphone:before,.ion-md-menu:before,.ion-md-mic-off:before,.ion-md-mic:before,.ion-md-microphone:before,.ion-md-moon:before,.ion-md-more:before,.ion-md-move:before,.ion-md-musical-note:before,.ion-md-musical-notes:before,.ion-md-navigate:before,.ion-md-notifications-off:before,.ion-md-notifications-outline:before,.ion-md-notifications:before,.ion-md-nuclear:before,.ion-md-nutrition:before,.ion-md-open:before,.ion-md-options:before,.ion-md-outlet:before,.ion-md-paper-plane:before,.ion-md-paper:before,.ion-md-partly-sunny:before,.ion-md-pause:before,.ion-md-paw:before,.ion-md-people:before,.ion-md-person-add:before,.ion-md-person:before,.ion-md-phone-landscape:before,.ion-md-phone-portrait:before,.ion-md-photos:before,.ion-md-pie:before,.ion-md-pin:before,.ion-md-pint:before,.ion-md-pizza:before,.ion-md-planet:before,.ion-md-play-circle:before,.ion-md-play:before,.ion-md-podium:before,.ion-md-power:before,.ion-md-pricetag:before,.ion-md-pricetags:before,.ion-md-print:before,.ion-md-pulse:before,.ion-md-qr-scanner:before,.ion-md-quote:before,.ion-md-radio-button-off:before,.ion-md-radio-button-on:before,.ion-md-radio:before,.ion-md-rainy:before,.ion-md-recording:before,.ion-md-redo:before,.ion-md-refresh-circle:before,.ion-md-refresh:before,.ion-md-remove-circle-outline:before,.ion-md-remove-circle:before,.ion-md-remove:before,.ion-md-reorder:before,.ion-md-repeat:before,.ion-md-resize:before,.ion-md-restaurant:before,.ion-md-return-left:before,.ion-md-return-right:before,.ion-md-reverse-camera:before,.ion-md-rewind:before,.ion-md-ribbon:before,.ion-md-rocket:before,.ion-md-rose:before,.ion-md-sad:before,.ion-md-save:before,.ion-md-school:before,.ion-md-search:before,.ion-md-send:before,.ion-md-settings:before,.ion-md-share-alt:before,.ion-md-share:before,.ion-md-shirt:before,.ion-md-shuffle:before,.ion-md-skip-backward:before,.ion-md-skip-forward:before,.ion-md-snow:before,.ion-md-speedometer:before,.ion-md-square-outline:before,.ion-md-square:before,.ion-md-star-half:before,.ion-md-star-outline:before,.ion-md-star:before,.ion-md-stats:before,.ion-md-stopwatch:before,.ion-md-subway:before,.ion-md-sunny:before,.ion-md-swap:before,.ion-md-switch:before,.ion-md-sync:before,.ion-md-tablet-landscape:before,.ion-md-tablet-portrait:before,.ion-md-tennisball:before,.ion-md-text:before,.ion-md-thermometer:before,.ion-md-thumbs-down:before,.ion-md-thumbs-up:before,.ion-md-thunderstorm:before,.ion-md-time:before,.ion-md-timer:before,.ion-md-today:before,.ion-md-train:before,.ion-md-transgender:before,.ion-md-trash:before,.ion-md-trending-down:before,.ion-md-trending-up:before,.ion-md-trophy:before,.ion-md-tv:before,.ion-md-umbrella:before,.ion-md-undo:before,.ion-md-unlock:before,.ion-md-videocam:before,.ion-md-volume-high:before,.ion-md-volume-low:before,.ion-md-volume-mute:before,.ion-md-volume-off:before,.ion-md-walk:before,.ion-md-wallet:before,.ion-md-warning:before,.ion-md-watch:before,.ion-md-water:before,.ion-md-wifi:before,.ion-md-wine:before,.ion-md-woman:before,.ionicons{display:inline-block;font-family:Ionicons;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ion-ios-add:before{content:"\F102"}.ion-ios-add-circle:before{content:"\F101"}.ion-ios-add-circle-outline:before{content:"\F100"}.ion-ios-airplane:before{content:"\F137"}.ion-ios-alarm:before{content:"\F3C8"}.ion-ios-albums:before{content:"\F3CA"}.ion-ios-alert:before{content:"\F104"}.ion-ios-american-football:before{content:"\F106"}.ion-ios-analytics:before{content:"\F3CE"}.ion-ios-aperture:before{content:"\F108"}.ion-ios-apps:before{content:"\F10A"}.ion-ios-appstore:before{content:"\F10C"}.ion-ios-archive:before{content:"\F10E"}.ion-ios-arrow-back:before{content:"\F3CF"}.ion-ios-arrow-down:before{content:"\F3D0"}.ion-ios-arrow-dropdown:before{content:"\F110"}.ion-ios-arrow-dropdown-circle:before{content:"\F125"}.ion-ios-arrow-dropleft:before{content:"\F112"}.ion-ios-arrow-dropleft-circle:before{content:"\F129"}.ion-ios-arrow-dropright:before{content:"\F114"}.ion-ios-arrow-dropright-circle:before{content:"\F12B"}.ion-ios-arrow-dropup:before{content:"\F116"}.ion-ios-arrow-dropup-circle:before{content:"\F12D"}.ion-ios-arrow-forward:before{content:"\F3D1"}.ion-ios-arrow-round-back:before{content:"\F117"}.ion-ios-arrow-round-down:before{content:"\F118"}.ion-ios-arrow-round-forward:before{content:"\F119"}.ion-ios-arrow-round-up:before{content:"\F11A"}.ion-ios-arrow-up:before{content:"\F3D8"}.ion-ios-at:before{content:"\F3DA"}.ion-ios-attach:before{content:"\F11B"}.ion-ios-backspace:before{content:"\F11D"}.ion-ios-barcode:before{content:"\F3DC"}.ion-ios-baseball:before{content:"\F3DE"}.ion-ios-basket:before{content:"\F11F"}.ion-ios-basketball:before{content:"\F3E0"}.ion-ios-battery-charging:before{content:"\F120"}.ion-ios-battery-dead:before{content:"\F121"}.ion-ios-battery-full:before{content:"\F122"}.ion-ios-beaker:before{content:"\F124"}.ion-ios-bed:before{content:"\F139"}.ion-ios-beer:before{content:"\F126"}.ion-ios-bicycle:before{content:"\F127"}.ion-ios-bluetooth:before{content:"\F128"}.ion-ios-boat:before{content:"\F12A"}.ion-ios-body:before{content:"\F3E4"}.ion-ios-bonfire:before{content:"\F12C"}.ion-ios-book:before{content:"\F3E8"}.ion-ios-bookmark:before{content:"\F12E"}.ion-ios-bookmarks:before{content:"\F3EA"}.ion-ios-bowtie:before{content:"\F130"}.ion-ios-briefcase:before{content:"\F3EE"}.ion-ios-browsers:before{content:"\F3F0"}.ion-ios-brush:before{content:"\F132"}.ion-ios-bug:before{content:"\F134"}.ion-ios-build:before{content:"\F136"}.ion-ios-bulb:before{content:"\F138"}.ion-ios-bus:before{content:"\F13A"}.ion-ios-business:before{content:"\F1A3"}.ion-ios-cafe:before{content:"\F13C"}.ion-ios-calculator:before{content:"\F3F2"}.ion-ios-calendar:before{content:"\F3F4"}.ion-ios-call:before{content:"\F13E"}.ion-ios-camera:before{content:"\F3F6"}.ion-ios-car:before{content:"\F140"}.ion-ios-card:before{content:"\F142"}.ion-ios-cart:before{content:"\F3F8"}.ion-ios-cash:before{content:"\F144"}.ion-ios-cellular:before{content:"\F13D"}.ion-ios-chatboxes:before{content:"\F3FA"}.ion-ios-chatbubbles:before{content:"\F146"}.ion-ios-checkbox:before{content:"\F148"}.ion-ios-checkbox-outline:before{content:"\F147"}.ion-ios-checkmark:before{content:"\F3FF"}.ion-ios-checkmark-circle:before{content:"\F14A"}.ion-ios-checkmark-circle-outline:before{content:"\F149"}.ion-ios-clipboard:before{content:"\F14C"}.ion-ios-clock:before{content:"\F403"}.ion-ios-close:before{content:"\F406"}.ion-ios-close-circle:before{content:"\F14E"}.ion-ios-close-circle-outline:before{content:"\F14D"}.ion-ios-cloud:before{content:"\F40C"}.ion-ios-cloud-circle:before{content:"\F152"}.ion-ios-cloud-done:before{content:"\F154"}.ion-ios-cloud-download:before{content:"\F408"}.ion-ios-cloud-outline:before{content:"\F409"}.ion-ios-cloud-upload:before{content:"\F40B"}.ion-ios-cloudy:before{content:"\F410"}.ion-ios-cloudy-night:before{content:"\F40E"}.ion-ios-code:before{content:"\F157"}.ion-ios-code-download:before{content:"\F155"}.ion-ios-code-working:before{content:"\F156"}.ion-ios-cog:before{content:"\F412"}.ion-ios-color-fill:before{content:"\F159"}.ion-ios-color-filter:before{content:"\F414"}.ion-ios-color-palette:before{content:"\F15B"}.ion-ios-color-wand:before{content:"\F416"}.ion-ios-compass:before{content:"\F15D"}.ion-ios-construct:before{content:"\F15F"}.ion-ios-contact:before{content:"\F41A"}.ion-ios-contacts:before{content:"\F161"}.ion-ios-contract:before{content:"\F162"}.ion-ios-contrast:before{content:"\F163"}.ion-ios-copy:before{content:"\F41C"}.ion-ios-create:before{content:"\F165"}.ion-ios-crop:before{content:"\F41E"}.ion-ios-cube:before{content:"\F168"}.ion-ios-cut:before{content:"\F16A"}.ion-ios-desktop:before{content:"\F16C"}.ion-ios-disc:before{content:"\F16E"}.ion-ios-document:before{content:"\F170"}.ion-ios-done-all:before{content:"\F171"}.ion-ios-download:before{content:"\F420"}.ion-ios-easel:before{content:"\F173"}.ion-ios-egg:before{content:"\F175"}.ion-ios-exit:before{content:"\F177"}.ion-ios-expand:before{content:"\F178"}.ion-ios-eye:before{content:"\F425"}.ion-ios-eye-off:before{content:"\F17A"}.ion-ios-fastforward:before{content:"\F427"}.ion-ios-female:before{content:"\F17B"}.ion-ios-filing:before{content:"\F429"}.ion-ios-film:before{content:"\F42B"}.ion-ios-finger-print:before{content:"\F17C"}.ion-ios-fitness:before{content:"\F1AB"}.ion-ios-flag:before{content:"\F42D"}.ion-ios-flame:before{content:"\F42F"}.ion-ios-flash:before{content:"\F17E"}.ion-ios-flash-off:before{content:"\F12F"}.ion-ios-flashlight:before{content:"\F141"}.ion-ios-flask:before{content:"\F431"}.ion-ios-flower:before{content:"\F433"}.ion-ios-folder:before{content:"\F435"}.ion-ios-folder-open:before{content:"\F180"}.ion-ios-football:before{content:"\F437"}.ion-ios-funnel:before{content:"\F182"}.ion-ios-gift:before{content:"\F191"}.ion-ios-git-branch:before{content:"\F183"}.ion-ios-git-commit:before{content:"\F184"}.ion-ios-git-compare:before{content:"\F185"}.ion-ios-git-merge:before{content:"\F186"}.ion-ios-git-network:before{content:"\F187"}.ion-ios-git-pull-request:before{content:"\F188"}.ion-ios-glasses:before{content:"\F43F"}.ion-ios-globe:before{content:"\F18A"}.ion-ios-grid:before{content:"\F18C"}.ion-ios-hammer:before{content:"\F18E"}.ion-ios-hand:before{content:"\F190"}.ion-ios-happy:before{content:"\F192"}.ion-ios-headset:before{content:"\F194"}.ion-ios-heart:before{content:"\F443"}.ion-ios-heart-dislike:before{content:"\F13F"}.ion-ios-heart-empty:before{content:"\F19B"}.ion-ios-heart-half:before{content:"\F19D"}.ion-ios-help:before{content:"\F446"}.ion-ios-help-buoy:before{content:"\F196"}.ion-ios-help-circle:before{content:"\F198"}.ion-ios-help-circle-outline:before{content:"\F197"}.ion-ios-home:before{content:"\F448"}.ion-ios-hourglass:before{content:"\F103"}.ion-ios-ice-cream:before{content:"\F19A"}.ion-ios-image:before{content:"\F19C"}.ion-ios-images:before{content:"\F19E"}.ion-ios-infinite:before{content:"\F44A"}.ion-ios-information:before{content:"\F44D"}.ion-ios-information-circle:before{content:"\F1A0"}.ion-ios-information-circle-outline:before{content:"\F19F"}.ion-ios-jet:before{content:"\F1A5"}.ion-ios-journal:before{content:"\F189"}.ion-ios-key:before{content:"\F1A7"}.ion-ios-keypad:before{content:"\F450"}.ion-ios-laptop:before{content:"\F1A8"}.ion-ios-leaf:before{content:"\F1AA"}.ion-ios-link:before{content:"\F22A"}.ion-ios-list:before{content:"\F454"}.ion-ios-list-box:before{content:"\F143"}.ion-ios-locate:before{content:"\F1AE"}.ion-ios-lock:before{content:"\F1B0"}.ion-ios-log-in:before{content:"\F1B1"}.ion-ios-log-out:before{content:"\F1B2"}.ion-ios-magnet:before{content:"\F1B4"}.ion-ios-mail:before{content:"\F1B8"}.ion-ios-mail-open:before{content:"\F1B6"}.ion-ios-mail-unread:before{content:"\F145"}.ion-ios-male:before{content:"\F1B9"}.ion-ios-man:before{content:"\F1BB"}.ion-ios-map:before{content:"\F1BD"}.ion-ios-medal:before{content:"\F1BF"}.ion-ios-medical:before{content:"\F45C"}.ion-ios-medkit:before{content:"\F45E"}.ion-ios-megaphone:before{content:"\F1C1"}.ion-ios-menu:before{content:"\F1C3"}.ion-ios-mic:before{content:"\F461"}.ion-ios-mic-off:before{content:"\F45F"}.ion-ios-microphone:before{content:"\F1C6"}.ion-ios-moon:before{content:"\F468"}.ion-ios-more:before{content:"\F1C8"}.ion-ios-move:before{content:"\F1CB"}.ion-ios-musical-note:before{content:"\F46B"}.ion-ios-musical-notes:before{content:"\F46C"}.ion-ios-navigate:before{content:"\F46E"}.ion-ios-notifications:before{content:"\F1D3"}.ion-ios-notifications-off:before{content:"\F1D1"}.ion-ios-notifications-outline:before{content:"\F133"}.ion-ios-nuclear:before{content:"\F1D5"}.ion-ios-nutrition:before{content:"\F470"}.ion-ios-open:before{content:"\F1D7"}.ion-ios-options:before{content:"\F1D9"}.ion-ios-outlet:before{content:"\F1DB"}.ion-ios-paper:before{content:"\F472"}.ion-ios-paper-plane:before{content:"\F1DD"}.ion-ios-partly-sunny:before{content:"\F1DF"}.ion-ios-pause:before{content:"\F478"}.ion-ios-paw:before{content:"\F47A"}.ion-ios-people:before{content:"\F47C"}.ion-ios-person:before{content:"\F47E"}.ion-ios-person-add:before{content:"\F1E1"}.ion-ios-phone-landscape:before{content:"\F1E2"}.ion-ios-phone-portrait:before{content:"\F1E3"}.ion-ios-photos:before{content:"\F482"}.ion-ios-pie:before{content:"\F484"}.ion-ios-pin:before{content:"\F1E5"}.ion-ios-pint:before{content:"\F486"}.ion-ios-pizza:before{content:"\F1E7"}.ion-ios-planet:before{content:"\F1EB"}.ion-ios-play:before{content:"\F488"}.ion-ios-play-circle:before{content:"\F113"}.ion-ios-podium:before{content:"\F1ED"}.ion-ios-power:before{content:"\F1EF"}.ion-ios-pricetag:before{content:"\F48D"}.ion-ios-pricetags:before{content:"\F48F"}.ion-ios-print:before{content:"\F1F1"}.ion-ios-pulse:before{content:"\F493"}.ion-ios-qr-scanner:before{content:"\F1F3"}.ion-ios-quote:before{content:"\F1F5"}.ion-ios-radio:before{content:"\F1F9"}.ion-ios-radio-button-off:before{content:"\F1F6"}.ion-ios-radio-button-on:before{content:"\F1F7"}.ion-ios-rainy:before{content:"\F495"}.ion-ios-recording:before{content:"\F497"}.ion-ios-redo:before{content:"\F499"}.ion-ios-refresh:before{content:"\F49C"}.ion-ios-refresh-circle:before{content:"\F135"}.ion-ios-remove:before{content:"\F1FC"}.ion-ios-remove-circle:before{content:"\F1FB"}.ion-ios-remove-circle-outline:before{content:"\F1FA"}.ion-ios-reorder:before{content:"\F1FD"}.ion-ios-repeat:before{content:"\F1FE"}.ion-ios-resize:before{content:"\F1FF"}.ion-ios-restaurant:before{content:"\F201"}.ion-ios-return-left:before{content:"\F202"}.ion-ios-return-right:before{content:"\F203"}.ion-ios-reverse-camera:before{content:"\F49F"}.ion-ios-rewind:before{content:"\F4A1"}.ion-ios-ribbon:before{content:"\F205"}.ion-ios-rocket:before{content:"\F14B"}.ion-ios-rose:before{content:"\F4A3"}.ion-ios-sad:before{content:"\F207"}.ion-ios-save:before{content:"\F1A6"}.ion-ios-school:before{content:"\F209"}.ion-ios-search:before{content:"\F4A5"}.ion-ios-send:before{content:"\F20C"}.ion-ios-settings:before{content:"\F4A7"}.ion-ios-share:before{content:"\F211"}.ion-ios-share-alt:before{content:"\F20F"}.ion-ios-shirt:before{content:"\F213"}.ion-ios-shuffle:before{content:"\F4A9"}.ion-ios-skip-backward:before{content:"\F215"}.ion-ios-skip-forward:before{content:"\F217"}.ion-ios-snow:before{content:"\F218"}.ion-ios-speedometer:before{content:"\F4B0"}.ion-ios-square:before{content:"\F21A"}.ion-ios-square-outline:before{content:"\F15C"}.ion-ios-star:before{content:"\F4B3"}.ion-ios-star-half:before{content:"\F4B1"}.ion-ios-star-outline:before{content:"\F4B2"}.ion-ios-stats:before{content:"\F21C"}.ion-ios-stopwatch:before{content:"\F4B5"}.ion-ios-subway:before{content:"\F21E"}.ion-ios-sunny:before{content:"\F4B7"}.ion-ios-swap:before{content:"\F21F"}.ion-ios-switch:before{content:"\F221"}.ion-ios-sync:before{content:"\F222"}.ion-ios-tablet-landscape:before{content:"\F223"}.ion-ios-tablet-portrait:before{content:"\F24E"}.ion-ios-tennisball:before{content:"\F4BB"}.ion-ios-text:before{content:"\F250"}.ion-ios-thermometer:before{content:"\F252"}.ion-ios-thumbs-down:before{content:"\F254"}.ion-ios-thumbs-up:before{content:"\F256"}.ion-ios-thunderstorm:before{content:"\F4BD"}.ion-ios-time:before{content:"\F4BF"}.ion-ios-timer:before{content:"\F4C1"}.ion-ios-today:before{content:"\F14F"}.ion-ios-train:before{content:"\F258"}.ion-ios-transgender:before{content:"\F259"}.ion-ios-trash:before{content:"\F4C5"}.ion-ios-trending-down:before{content:"\F25A"}.ion-ios-trending-up:before{content:"\F25B"}.ion-ios-trophy:before{content:"\F25D"}.ion-ios-tv:before{content:"\F115"}.ion-ios-umbrella:before{content:"\F25F"}.ion-ios-undo:before{content:"\F4C7"}.ion-ios-unlock:before{content:"\F261"}.ion-ios-videocam:before{content:"\F4CD"}.ion-ios-volume-high:before{content:"\F11C"}.ion-ios-volume-low:before{content:"\F11E"}.ion-ios-volume-mute:before{content:"\F263"}.ion-ios-volume-off:before{content:"\F264"}.ion-ios-walk:before{content:"\F266"}.ion-ios-wallet:before{content:"\F18B"}.ion-ios-warning:before{content:"\F268"}.ion-ios-watch:before{content:"\F269"}.ion-ios-water:before{content:"\F26B"}.ion-ios-wifi:before{content:"\F26D"}.ion-ios-wine:before{content:"\F26F"}.ion-ios-woman:before{content:"\F271"}.ion-logo-android:before{content:"\F225"}.ion-logo-angular:before{content:"\F227"}.ion-logo-apple:before{content:"\F229"}.ion-logo-bitbucket:before{content:"\F193"}.ion-logo-bitcoin:before{content:"\F22B"}.ion-logo-buffer:before{content:"\F22D"}.ion-logo-chrome:before{content:"\F22F"}.ion-logo-closed-captioning:before{content:"\F105"}.ion-logo-codepen:before{content:"\F230"}.ion-logo-css3:before{content:"\F231"}.ion-logo-designernews:before{content:"\F232"}.ion-logo-dribbble:before{content:"\F233"}.ion-logo-dropbox:before{content:"\F234"}.ion-logo-euro:before{content:"\F235"}.ion-logo-facebook:before{content:"\F236"}.ion-logo-flickr:before{content:"\F107"}.ion-logo-foursquare:before{content:"\F237"}.ion-logo-freebsd-devil:before{content:"\F238"}.ion-logo-game-controller-a:before{content:"\F13B"}.ion-logo-game-controller-b:before{content:"\F181"}.ion-logo-github:before{content:"\F239"}.ion-logo-google:before{content:"\F23A"}.ion-logo-googleplus:before{content:"\F23B"}.ion-logo-hackernews:before{content:"\F23C"}.ion-logo-html5:before{content:"\F23D"}.ion-logo-instagram:before{content:"\F23E"}.ion-logo-ionic:before{content:"\F150"}.ion-logo-ionitron:before{content:"\F151"}.ion-logo-javascript:before{content:"\F23F"}.ion-logo-linkedin:before{content:"\F240"}.ion-logo-markdown:before{content:"\F241"}.ion-logo-model-s:before{content:"\F153"}.ion-logo-no-smoking:before{content:"\F109"}.ion-logo-nodejs:before{content:"\F242"}.ion-logo-npm:before{content:"\F195"}.ion-logo-octocat:before{content:"\F243"}.ion-logo-pinterest:before{content:"\F244"}.ion-logo-playstation:before{content:"\F245"}.ion-logo-polymer:before{content:"\F15E"}.ion-logo-python:before{content:"\F246"}.ion-logo-reddit:before{content:"\F247"}.ion-logo-rss:before{content:"\F248"}.ion-logo-sass:before{content:"\F249"}.ion-logo-skype:before{content:"\F24A"}.ion-logo-slack:before{content:"\F10B"}.ion-logo-snapchat:before{content:"\F24B"}.ion-logo-steam:before{content:"\F24C"}.ion-logo-tumblr:before{content:"\F24D"}.ion-logo-tux:before{content:"\F2AE"}.ion-logo-twitch:before{content:"\F2AF"}.ion-logo-twitter:before{content:"\F2B0"}.ion-logo-usd:before{content:"\F2B1"}.ion-logo-vimeo:before{content:"\F2C4"}.ion-logo-vk:before{content:"\F10D"}.ion-logo-whatsapp:before{content:"\F2C5"}.ion-logo-windows:before{content:"\F32F"}.ion-logo-wordpress:before{content:"\F330"}.ion-logo-xbox:before{content:"\F34C"}.ion-logo-xing:before{content:"\F10F"}.ion-logo-yahoo:before{content:"\F34D"}.ion-logo-yen:before{content:"\F34E"}.ion-logo-youtube:before{content:"\F34F"}.ion-md-add:before{content:"\F273"}.ion-md-add-circle:before{content:"\F272"}.ion-md-add-circle-outline:before{content:"\F158"}.ion-md-airplane:before{content:"\F15A"}.ion-md-alarm:before{content:"\F274"}.ion-md-albums:before{content:"\F275"}.ion-md-alert:before{content:"\F276"}.ion-md-american-football:before{content:"\F277"}.ion-md-analytics:before{content:"\F278"}.ion-md-aperture:before{content:"\F279"}.ion-md-apps:before{content:"\F27A"}.ion-md-appstore:before{content:"\F27B"}.ion-md-archive:before{content:"\F27C"}.ion-md-arrow-back:before{content:"\F27D"}.ion-md-arrow-down:before{content:"\F27E"}.ion-md-arrow-dropdown:before{content:"\F280"}.ion-md-arrow-dropdown-circle:before{content:"\F27F"}.ion-md-arrow-dropleft:before{content:"\F282"}.ion-md-arrow-dropleft-circle:before{content:"\F281"}.ion-md-arrow-dropright:before{content:"\F284"}.ion-md-arrow-dropright-circle:before{content:"\F283"}.ion-md-arrow-dropup:before{content:"\F286"}.ion-md-arrow-dropup-circle:before{content:"\F285"}.ion-md-arrow-forward:before{content:"\F287"}.ion-md-arrow-round-back:before{content:"\F288"}.ion-md-arrow-round-down:before{content:"\F289"}.ion-md-arrow-round-forward:before{content:"\F28A"}.ion-md-arrow-round-up:before{content:"\F28B"}.ion-md-arrow-up:before{content:"\F28C"}.ion-md-at:before{content:"\F28D"}.ion-md-attach:before{content:"\F28E"}.ion-md-backspace:before{content:"\F28F"}.ion-md-barcode:before{content:"\F290"}.ion-md-baseball:before{content:"\F291"}.ion-md-basket:before{content:"\F292"}.ion-md-basketball:before{content:"\F293"}.ion-md-battery-charging:before{content:"\F294"}.ion-md-battery-dead:before{content:"\F295"}.ion-md-battery-full:before{content:"\F296"}.ion-md-beaker:before{content:"\F297"}.ion-md-bed:before{content:"\F160"}.ion-md-beer:before{content:"\F298"}.ion-md-bicycle:before{content:"\F299"}.ion-md-bluetooth:before{content:"\F29A"}.ion-md-boat:before{content:"\F29B"}.ion-md-body:before{content:"\F29C"}.ion-md-bonfire:before{content:"\F29D"}.ion-md-book:before{content:"\F29E"}.ion-md-bookmark:before{content:"\F29F"}.ion-md-bookmarks:before{content:"\F2A0"}.ion-md-bowtie:before{content:"\F2A1"}.ion-md-briefcase:before{content:"\F2A2"}.ion-md-browsers:before{content:"\F2A3"}.ion-md-brush:before{content:"\F2A4"}.ion-md-bug:before{content:"\F2A5"}.ion-md-build:before{content:"\F2A6"}.ion-md-bulb:before{content:"\F2A7"}.ion-md-bus:before{content:"\F2A8"}.ion-md-business:before{content:"\F1A4"}.ion-md-cafe:before{content:"\F2A9"}.ion-md-calculator:before{content:"\F2AA"}.ion-md-calendar:before{content:"\F2AB"}.ion-md-call:before{content:"\F2AC"}.ion-md-camera:before{content:"\F2AD"}.ion-md-car:before{content:"\F2B2"}.ion-md-card:before{content:"\F2B3"}.ion-md-cart:before{content:"\F2B4"}.ion-md-cash:before{content:"\F2B5"}.ion-md-cellular:before{content:"\F164"}.ion-md-chatboxes:before{content:"\F2B6"}.ion-md-chatbubbles:before{content:"\F2B7"}.ion-md-checkbox:before{content:"\F2B9"}.ion-md-checkbox-outline:before{content:"\F2B8"}.ion-md-checkmark:before{content:"\F2BC"}.ion-md-checkmark-circle:before{content:"\F2BB"}.ion-md-checkmark-circle-outline:before{content:"\F2BA"}.ion-md-clipboard:before{content:"\F2BD"}.ion-md-clock:before{content:"\F2BE"}.ion-md-close:before{content:"\F2C0"}.ion-md-close-circle:before{content:"\F2BF"}.ion-md-close-circle-outline:before{content:"\F166"}.ion-md-cloud:before{content:"\F2C9"}.ion-md-cloud-circle:before{content:"\F2C2"}.ion-md-cloud-done:before{content:"\F2C3"}.ion-md-cloud-download:before{content:"\F2C6"}.ion-md-cloud-outline:before{content:"\F2C7"}.ion-md-cloud-upload:before{content:"\F2C8"}.ion-md-cloudy:before{content:"\F2CB"}.ion-md-cloudy-night:before{content:"\F2CA"}.ion-md-code:before{content:"\F2CE"}.ion-md-code-download:before{content:"\F2CC"}.ion-md-code-working:before{content:"\F2CD"}.ion-md-cog:before{content:"\F2CF"}.ion-md-color-fill:before{content:"\F2D0"}.ion-md-color-filter:before{content:"\F2D1"}.ion-md-color-palette:before{content:"\F2D2"}.ion-md-color-wand:before{content:"\F2D3"}.ion-md-compass:before{content:"\F2D4"}.ion-md-construct:before{content:"\F2D5"}.ion-md-contact:before{content:"\F2D6"}.ion-md-contacts:before{content:"\F2D7"}.ion-md-contract:before{content:"\F2D8"}.ion-md-contrast:before{content:"\F2D9"}.ion-md-copy:before{content:"\F2DA"}.ion-md-create:before{content:"\F2DB"}.ion-md-crop:before{content:"\F2DC"}.ion-md-cube:before{content:"\F2DD"}.ion-md-cut:before{content:"\F2DE"}.ion-md-desktop:before{content:"\F2DF"}.ion-md-disc:before{content:"\F2E0"}.ion-md-document:before{content:"\F2E1"}.ion-md-done-all:before{content:"\F2E2"}.ion-md-download:before{content:"\F2E3"}.ion-md-easel:before{content:"\F2E4"}.ion-md-egg:before{content:"\F2E5"}.ion-md-exit:before{content:"\F2E6"}.ion-md-expand:before{content:"\F2E7"}.ion-md-eye:before{content:"\F2E9"}.ion-md-eye-off:before{content:"\F2E8"}.ion-md-fastforward:before{content:"\F2EA"}.ion-md-female:before{content:"\F2EB"}.ion-md-filing:before{content:"\F2EC"}.ion-md-film:before{content:"\F2ED"}.ion-md-finger-print:before{content:"\F2EE"}.ion-md-fitness:before{content:"\F1AC"}.ion-md-flag:before{content:"\F2EF"}.ion-md-flame:before{content:"\F2F0"}.ion-md-flash:before{content:"\F2F1"}.ion-md-flash-off:before{content:"\F169"}.ion-md-flashlight:before{content:"\F16B"}.ion-md-flask:before{content:"\F2F2"}.ion-md-flower:before{content:"\F2F3"}.ion-md-folder:before{content:"\F2F5"}.ion-md-folder-open:before{content:"\F2F4"}.ion-md-football:before{content:"\F2F6"}.ion-md-funnel:before{content:"\F2F7"}.ion-md-gift:before{content:"\F199"}.ion-md-git-branch:before{content:"\F2FA"}.ion-md-git-commit:before{content:"\F2FB"}.ion-md-git-compare:before{content:"\F2FC"}.ion-md-git-merge:before{content:"\F2FD"}.ion-md-git-network:before{content:"\F2FE"}.ion-md-git-pull-request:before{content:"\F2FF"}.ion-md-glasses:before{content:"\F300"}.ion-md-globe:before{content:"\F301"}.ion-md-grid:before{content:"\F302"}.ion-md-hammer:before{content:"\F303"}.ion-md-hand:before{content:"\F304"}.ion-md-happy:before{content:"\F305"}.ion-md-headset:before{content:"\F306"}.ion-md-heart:before{content:"\F308"}.ion-md-heart-dislike:before{content:"\F167"}.ion-md-heart-empty:before{content:"\F1A1"}.ion-md-heart-half:before{content:"\F1A2"}.ion-md-help:before{content:"\F30B"}.ion-md-help-buoy:before{content:"\F309"}.ion-md-help-circle:before{content:"\F30A"}.ion-md-help-circle-outline:before{content:"\F16D"}.ion-md-home:before{content:"\F30C"}.ion-md-hourglass:before{content:"\F111"}.ion-md-ice-cream:before{content:"\F30D"}.ion-md-image:before{content:"\F30E"}.ion-md-images:before{content:"\F30F"}.ion-md-infinite:before{content:"\F310"}.ion-md-information:before{content:"\F312"}.ion-md-information-circle:before{content:"\F311"}.ion-md-information-circle-outline:before{content:"\F16F"}.ion-md-jet:before{content:"\F315"}.ion-md-journal:before{content:"\F18D"}.ion-md-key:before{content:"\F316"}.ion-md-keypad:before{content:"\F317"}.ion-md-laptop:before{content:"\F318"}.ion-md-leaf:before{content:"\F319"}.ion-md-link:before{content:"\F22E"}.ion-md-list:before{content:"\F31B"}.ion-md-list-box:before{content:"\F31A"}.ion-md-locate:before{content:"\F31C"}.ion-md-lock:before{content:"\F31D"}.ion-md-log-in:before{content:"\F31E"}.ion-md-log-out:before{content:"\F31F"}.ion-md-magnet:before{content:"\F320"}.ion-md-mail:before{content:"\F322"}.ion-md-mail-open:before{content:"\F321"}.ion-md-mail-unread:before{content:"\F172"}.ion-md-male:before{content:"\F323"}.ion-md-man:before{content:"\F324"}.ion-md-map:before{content:"\F325"}.ion-md-medal:before{content:"\F326"}.ion-md-medical:before{content:"\F327"}.ion-md-medkit:before{content:"\F328"}.ion-md-megaphone:before{content:"\F329"}.ion-md-menu:before{content:"\F32A"}.ion-md-mic:before{content:"\F32C"}.ion-md-mic-off:before{content:"\F32B"}.ion-md-microphone:before{content:"\F32D"}.ion-md-moon:before{content:"\F32E"}.ion-md-more:before{content:"\F1C9"}.ion-md-move:before{content:"\F331"}.ion-md-musical-note:before{content:"\F332"}.ion-md-musical-notes:before{content:"\F333"}.ion-md-navigate:before{content:"\F334"}.ion-md-notifications:before{content:"\F338"}.ion-md-notifications-off:before{content:"\F336"}.ion-md-notifications-outline:before{content:"\F337"}.ion-md-nuclear:before{content:"\F339"}.ion-md-nutrition:before{content:"\F33A"}.ion-md-open:before{content:"\F33B"}.ion-md-options:before{content:"\F33C"}.ion-md-outlet:before{content:"\F33D"}.ion-md-paper:before{content:"\F33F"}.ion-md-paper-plane:before{content:"\F33E"}.ion-md-partly-sunny:before{content:"\F340"}.ion-md-pause:before{content:"\F341"}.ion-md-paw:before{content:"\F342"}.ion-md-people:before{content:"\F343"}.ion-md-person:before{content:"\F345"}.ion-md-person-add:before{content:"\F344"}.ion-md-phone-landscape:before{content:"\F346"}.ion-md-phone-portrait:before{content:"\F347"}.ion-md-photos:before{content:"\F348"}.ion-md-pie:before{content:"\F349"}.ion-md-pin:before{content:"\F34A"}.ion-md-pint:before{content:"\F34B"}.ion-md-pizza:before{content:"\F354"}.ion-md-planet:before{content:"\F356"}.ion-md-play:before{content:"\F357"}.ion-md-play-circle:before{content:"\F174"}.ion-md-podium:before{content:"\F358"}.ion-md-power:before{content:"\F359"}.ion-md-pricetag:before{content:"\F35A"}.ion-md-pricetags:before{content:"\F35B"}.ion-md-print:before{content:"\F35C"}.ion-md-pulse:before{content:"\F35D"}.ion-md-qr-scanner:before{content:"\F35E"}.ion-md-quote:before{content:"\F35F"}.ion-md-radio:before{content:"\F362"}.ion-md-radio-button-off:before{content:"\F360"}.ion-md-radio-button-on:before{content:"\F361"}.ion-md-rainy:before{content:"\F363"}.ion-md-recording:before{content:"\F364"}.ion-md-redo:before{content:"\F365"}.ion-md-refresh:before{content:"\F366"}.ion-md-refresh-circle:before{content:"\F228"}.ion-md-remove:before{content:"\F368"}.ion-md-remove-circle:before{content:"\F367"}.ion-md-remove-circle-outline:before{content:"\F176"}.ion-md-reorder:before{content:"\F369"}.ion-md-repeat:before{content:"\F36A"}.ion-md-resize:before{content:"\F36B"}.ion-md-restaurant:before{content:"\F36C"}.ion-md-return-left:before{content:"\F36D"}.ion-md-return-right:before{content:"\F36E"}.ion-md-reverse-camera:before{content:"\F36F"}.ion-md-rewind:before{content:"\F370"}.ion-md-ribbon:before{content:"\F371"}.ion-md-rocket:before{content:"\F179"}.ion-md-rose:before{content:"\F372"}.ion-md-sad:before{content:"\F373"}.ion-md-save:before{content:"\F1A9"}.ion-md-school:before{content:"\F374"}.ion-md-search:before{content:"\F375"}.ion-md-send:before{content:"\F376"}.ion-md-settings:before{content:"\F377"}.ion-md-share:before{content:"\F379"}.ion-md-share-alt:before{content:"\F378"}.ion-md-shirt:before{content:"\F37A"}.ion-md-shuffle:before{content:"\F37B"}.ion-md-skip-backward:before{content:"\F37C"}.ion-md-skip-forward:before{content:"\F37D"}.ion-md-snow:before{content:"\F37E"}.ion-md-speedometer:before{content:"\F37F"}.ion-md-square:before{content:"\F381"}.ion-md-square-outline:before{content:"\F380"}.ion-md-star:before{content:"\F384"}.ion-md-star-half:before{content:"\F382"}.ion-md-star-outline:before{content:"\F383"}.ion-md-stats:before{content:"\F385"}.ion-md-stopwatch:before{content:"\F386"}.ion-md-subway:before{content:"\F387"}.ion-md-sunny:before{content:"\F388"}.ion-md-swap:before{content:"\F389"}.ion-md-switch:before{content:"\F38A"}.ion-md-sync:before{content:"\F38B"}.ion-md-tablet-landscape:before{content:"\F38C"}.ion-md-tablet-portrait:before{content:"\F38D"}.ion-md-tennisball:before{content:"\F38E"}.ion-md-text:before{content:"\F38F"}.ion-md-thermometer:before{content:"\F390"}.ion-md-thumbs-down:before{content:"\F391"}.ion-md-thumbs-up:before{content:"\F392"}.ion-md-thunderstorm:before{content:"\F393"}.ion-md-time:before{content:"\F394"}.ion-md-timer:before{content:"\F395"}.ion-md-today:before{content:"\F17D"}.ion-md-train:before{content:"\F396"}.ion-md-transgender:before{content:"\F397"}.ion-md-trash:before{content:"\F398"}.ion-md-trending-down:before{content:"\F399"}.ion-md-trending-up:before{content:"\F39A"}.ion-md-trophy:before{content:"\F39B"}.ion-md-tv:before{content:"\F17F"}.ion-md-umbrella:before{content:"\F39C"}.ion-md-undo:before{content:"\F39D"}.ion-md-unlock:before{content:"\F39E"}.ion-md-videocam:before{content:"\F39F"}.ion-md-volume-high:before{content:"\F123"}.ion-md-volume-low:before{content:"\F131"}.ion-md-volume-mute:before{content:"\F3A1"}.ion-md-volume-off:before{content:"\F3A2"}.ion-md-walk:before{content:"\F3A4"}.ion-md-wallet:before{content:"\F18F"}.ion-md-warning:before{content:"\F3A5"}.ion-md-watch:before{content:"\F3A6"}.ion-md-water:before{content:"\F3A7"}.ion-md-wifi:before{content:"\F3A8"}.ion-md-wine:before{content:"\F3A9"}.ion-md-woman:before{content:"\F3AA"}.site{max-width:996px;min-height:100vh;margin:auto}.header,.site{display:flex;flex-direction:column}.header{justify-content:space-around}.header .logo a img,.header .logo h1 a{display:block;margin:0 auto}.header .logo a img,.header .logo h1 a:hover{opacity:1;filter:alpha(opacity=100)}.header .logo h1{text-align:center}.header .logo{padding:30px 0}.header .logo h1{margin:0;border:0}.header .logo h1 a{text-decoration:none;font-size:30px;line-height:60px;color:#333;margin:0;padding:0;border:0;text-align:center}.header .logo h1 a:hover{text-decoration:none;color:#555}.header .logo a,.header .logo img{display:block;margin:0}.header p.tagline{color:#7e7e7e;text-align:center;font-size:12px;font-family:Lato;letter-spacing:3px;margin-bottom:0}.header nav ul li a{text-decoration:none;color:#161616;display:block;padding:0 15px;font-size:14px;line-height:50px;height:50px;font-weight:400}.site-content{flex:1 1;margin:0 auto;padding:0 1.0875rem 1.45rem}.site-content h2{color:#b49543}.gallery{display:flex;flex-direction:row}.gallery .gallery-item{width:150px!important;height:150px!important}.gallery .gallery-item .gatsby-image-wrapper{width:100%!important;height:90%!important}footer{text-align:center;padding:0 0 20px;color:#555}footer a:hover{opacity:.7;filter:alpha(opacity=70)}footer h4{font-size:16px;font-weight:400;border-bottom:1px solid #ddd;padding-bottom:10px}footer ul li{margin-bottom:5px}footer .btn.newsletter{font-size:14px;font-weight:700;height:34px;line-height:34px;margin-left:15px}footer .btn.newsletter,footer .btn.newsletter:hover{background:#b49543;color:#fff}footer #mail{width:168px}footer .copyright{margin:20px 0 10px}footer .tweet ul li{margin-bottom:20px}footer .tweet_list{list-style:none;margin:0}footer .tweet_avatar,footer .tweet_time{display:none}footer .tweet_text a{color:#555!important}footer .tweet_text a:hover{color:#555!important;opacity:.7;filter:alpha(opacity=70)}.blog-post{padding-left:30px;padding-right:30px}.blog-post h1{color:#b49543;text-align:center}.blog-post h2{color:#20824b;text-align:center}.blog-post strong{color:#e83e8c}body,html{min-height:100vh;margin:0;padding:0;border:0;background-color:#fff}html{font-size:62.5%;-webkit-touch-callout:none;-webkit-text-size-adjust:none}body{line-height:1.45em;font-size:18px;color:#161616;font-family:Helvetica,Arial,sans-serif}article,aside,details,dialog,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}h1,h2,h3,h4,h5,h6{color:#333;margin:0 0 13px;font-family:Cabin}.cart-summary,.toolbar,h1,h2,h3,h4,h5,h6{font-family:Cabin}h1{text-align:left;text-transform:uppercase;color:#333;font-size:36px;line-height:36px}h2{font-size:28px;line-height:28px}h2,h3{font-weight:400;color:#333}h3{font-size:24px;line-height:24px}h4{font-size:13px}h4,h5{line-height:18px}h5{font-size:12px}h6{font-size:10px;line-height:18px;text-transform:uppercase}h1 .note,h2 .note,h3 .note,h4 .note,h5 .note,h6 .note{margin-left:8px;font-weight:400;font-size:12px}h1 .note a,h2 .note a,h3 .note a,h4 .note a,h5 .note a,h6 .note a{color:#b49543}p{margin:0 0 20px;line-height:21px}a{text-decoration:none;outline:none}a,a:hover{color:#b49543}a:hover{opacity:.7}a:active{outline:none}a.btn,input.btn{box-shadow:none;display:inline-block;height:36px;line-height:36px;border:none;margin:0;padding:0 20px;color:#fff;font-weight:700;font-size:12px;text-transform:none;background:#b49543;width:auto}a.btn:hover,input.btn:hover{background-color:#b49543;color:#fff;opacity:.8}a.btn:hover:disabled,input.btn:hover:disabled{-moz-opacity:.2;opacity:.2;filter:alpha(opacity=20);cursor:default}input.disabled.btn:hover{background-color:#b49543;color:#fff}.btn:disabled,.disabled{-moz-opacity:.2;opacity:.2;filter:alpha(opacity=20);cursor:default}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#333}#product .add-to-cart .icon,.cart-summary a .icon,.searchform input.submit,a.btn,input.btn{border-radius:2px}#zoom-image{border-radius:0 2px 0 0}ol.unstyled,ul.unstyled{margin:0;list-style:none outside none}ol.unstyled>li,ul.unstyled>li{list-style:none}ol.horizontal>li,ul.horizontal>li{display:block;float:left}ol.horizontal-inline,ul.horizontal-inline{text-align:center}ol.horizontal-inline>li,ul.horizontal-inline>li{display:inline;margin:0 5px}ol.expanded>li,ul.expanded>li{margin-bottom:10px}nav{font-family:Helvetica,Arial,sans-serif;margin-bottom:1rem;position:relative;border-top:1px solid #ddd;border-bottom:1px solid #ddd}nav ul{line-height:1.45rem}nav>ul>li{margin-bottom:0}nav>ul>li>a.active{color:#b49543}nav>ul>li.dropdown>a{padding-right:15px;margin-right:10px;background:url(//cdn.shopify.com/s/files/1/0333/6345/t/1/assets/arrow-dark.png?17661699365450563185=) no-repeat 100% 50%}nav>ul>li>a.current{color:#888}nav>ul>li:hover>a{color:#888;opacity:.7;filter:alpha(opacity=70);text-decoration:none}nav>ul>li.dropdown{position:relative}nav>ul>li.dropdown>.dropdown{background:#fff;list-style:none outside none;padding:5px 15px;display:none;position:absolute;min-width:180px;z-index:99999;top:100%;left:0;margin-left:15px;border:1px solid #ddd}nav>ul>li.dropdown:hover>.dropdown{box-shadow:0 0 3px rgba(0,0,0,.1)}nav>ul>li.dropdown li{list-style:none;font-size:13px;line-height:30px}nav>ul>li.dropdown li a{line-height:30px;height:30px;font-size:15px;color:#888}nav>ul>li.dropdown li a:hover{color:#888;opacity:.7;filter:alpha(opacity=70)}nav>ul>li.dropdown>.dropdown{margin-left:0}nav>ul>li.dropdown:hover>.dropdown{display:block;z-index:999999;box-shadow:0 1px 3px 0 rgba(0,0,0,.1)}nav>ul{text-align:center}nav>ul>li{float:none!important;display:inline-block!important}nav>ul>li.dropdown>.dropdown{text-align:left}nav>ul>li.dropdown>.dropdown>li{display:block}.sidebar h3{font-size:18px}.sidebar .article{margin:0 0 15px}.sidebar .article a{display:block}.sidebar .tags li{margin:0}.article h1{font-size:26px;color:#b49543}.article-body h1 .date,.article h1 .date{font-size:13px;font-family:Helvetica,Arial,sans-serif}.label{color:#b49543!important;font-style:italic;font-weight:700}.social-media-icon-link{color:#20824b;font-size:1.4em;margin:0 5px}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ul{margin:0}ol,ul{padding:0;list-style-position:outside;list-style-image:none}ol{margin:0 0 1.45rem 1.45rem}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style><meta name="generator" content="Gatsby 2.13.28"/><title data-react-helmet="true"></title><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link rel="shortcut icon" href="/icons/icon-48x48.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=46585d8bbd9485563eb0592570263c6f"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=46585d8bbd9485563eb0592570263c6f"/><link as="script" rel="preload" href="/component---src-templates-post-template-js-aeee6a908777389fa681.js"/><link as="script" rel="preload" href="/styles-56f6b483d0e1d83fdfc6.js"/><link as="script" rel="preload" href="/app-f007f4d9ad7518eaf536.js"/><link as="script" rel="preload" href="/webpack-runtime-84b0c65df1459d403b9e.js"/><link as="fetch" rel="preload" href="/page-data/blog/git-basics-concepts/page-data.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="blog-post-container"><div class="blog-post"><div class="blog-post-content"><p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/12663d0e91d368cc7eba92afb0f5783f/ba6f7/Git-Basic-Concepts.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 75.5868544600939%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAADhElEQVQ4y2NgQAJG2ZPh7P///zPM33uCEcb3rJ3HQDYAGQYDC3cfARs6tbGQISm/guH/bB4Gp/R6xqjuVcz5M7cwKcZ3gtWlTFyHMMAwZxJDYPMSMLtw3nZmEJ09bV1rXNeSSBC7v6eDfUNFMPPG6nDmyeUpTOgOcKuaiyoQ0LQYTDs3rGT8/+8K2EXFC3d2lC3Z84Oh6boIugHMcVMVwrpW5RXP3uLLoBAPVp81dSOqIt+GhRCbk9cLNpYXRi2uSzmxeGb//+nNxefWV4Q0bSr1rQHiijU1UbPnl8SsLpm0alP6tM3rgpsWaoO0xfasQrjcq24B2BbTzB6ptOnbm1vnrPy4ojzsTsfMRW9nrtvzv66z+1BTe8fc6s4Js7cUB1bMbIh+FjGxfRJIT8PiREjEyUdDDMuZvomxYNYWFhDbIn+yUOXCXQsqFu58XF9deWP2qsn7zxzv/N+3YsGf0hVnTpWvOXO2tnPSsaxpsf9tFsf4gPT4LUxiju1dgiN2YTEbED5zXVTs/3Px9k/uFjr935sa9X+7t8fZPUF+Fzcnx/9fHe/1f5WnZwBI7fJgd3AkhrUthWi2LpkhFtiyJM6udJb4fw4GsPP3O9p13Pe3+3/Gy+H/CWebf1cSQv/ejPb9f8Xb+v9lL6tfV70d/293dfMGqd1bHcKWPHU3U860DczpkzcwMvSuP3Lu3rsf/ydsOHIM5tLD7k4lD8Id/98Msvp+N9X/95Pu6j9Pu2t+3Ypy/XkzyPr3eQ+b/5MYjDWwenPqlhNfgAn5/4xtZ3/HTmxebrMiKnWzv+uUd1HO/x+G2v5/luTz/21DHhDn/n8S6fz/cbT9/3fzAv+/3hd1+uF210V7lsV2hXZvC02ZsDoneeJaGwYgYVc8Z+uCxN7NrsHdOS7eCxLqemJ80k64OSw97O207JCbzbJjEYHLjgS4LzvkarvsUKDTsoe7gpe+PRW16fYGlzWH18RPK1p4LKx49ubM1EnrzBmoDuqW7GFaffQSU+2io0x+PdlMERuzmJdmeDH+iTZh+p5szvQjWp/p/8Qcpv/1YUw/wvWY/pRZMf2/kwjEOUx/T3ox7drazFSx6ABz1cKdzGXzdzAyuFXPBaVyBpeyGWALTNoCGaoDfRk22LkxrHUEYgc3hjUgDGWvdnRlODvbi+Hh3gCGEwsdGE4vcQDrc8xvZTDMnsQAACz/kElGTlP2AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git Basic Concepts"
+        title="Git Basic Concepts"
+        src="/static/12663d0e91d368cc7eba92afb0f5783f/b9e4f/Git-Basic-Concepts.png"
+        srcset="/static/12663d0e91d368cc7eba92afb0f5783f/cf440/Git-Basic-Concepts.png 148w,
+/static/12663d0e91d368cc7eba92afb0f5783f/d2d38/Git-Basic-Concepts.png 295w,
+/static/12663d0e91d368cc7eba92afb0f5783f/b9e4f/Git-Basic-Concepts.png 590w,
+/static/12663d0e91d368cc7eba92afb0f5783f/ba6f7/Git-Basic-Concepts.png 852w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<h1>Git Basic Concepts - 3 Conceptual Areas</h1>
+<p>Git is version control system that allows to record and manage file changes over time for your project; in other words Git takes snapshots of files and stores that information for you; as a result you can work on separate versions of a file in parallel, you can restore an earlier verison of a file, you can view the history of the changes on your project... With these capabilities it is imperative that a proficient developer masters Git in order to increase her productivity.
+At first glance Git might seem to be a very complex system with lots of commands to cram in. The wrong  way to learn Git is to memorize commands without taking the time to understand the fundamentals of Git and its big picture. For my first few months of using Git, I was in the same situation, but when I stepped back and invested time in learning the basic core concepts of Git and how it works, I was really suprised by its simplicity. I realized that commands are just mere tools; once you know what you are doing, it is easier to  recall the right tool for the operation. That is why I decided to share my lessons on Git in this brief post.</p>
+<p>Although Git a Distributed version control system, nearly every operation is local. Unlike most of VCS's, Git has the entire history of the project/repository on the local machine, which makes Git operations fast and instantaneous without network latency. For example, to see the repository's history Git simply gets it directly from the repo's local database without needing to fetch it from the server. Also if you want to see the changes between the current version of a file and the earlier one a month ago, Git can quickly look up the version of the file a month ago on your disk, then perform a fast difference calculation. Understanding how Git works locally is the key to master it. Once you understand Git's local operations, it is much easier to grasp its distributed aspects.</p>
+<p>First, assuming you already have git installed (you can find installation and setup documentation <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">here</a>, it is important that you configure your Git <code>username</code> and <code>email</code>. when you make a commit, Git includes your <code>username</code>, <code>email</code> and <code>timestamp</code> in the history; this configuration helps track when changes were made and by who. You do this congiguration with <code>git config --global</code>.</p>
+<pre><code class="language-bash">git config --global user.name "Vivens Ndatinya"
+git config --global user.email "vivens@mail.com"
+</code></pre>
+<p>Global config will be used for all the Git repos on your machine, it is a one-time configuration. The <code>--local</code> option instead <code>--global</code> can be used if you ever want to set configuration just for one specific repository. Once you have completed the configuration, you can view it by running <code>git config --list</code></p>
+<p>Of course a Git repository must exist before you start doing Git operations.<br>
+To create a new Git repository on your machine, you run the <code>git init</code> command.  This command creates an empty Git repository (a <code>.git</code> directory with the objects and template files for tracking changes). An initial HEAD file that references the HEAD of the <code>master branch</code> is also created.  I will discusse the details of Git branches in a later post; For now we will work on the <code>master branch</code> automatically created by <code>Git init</code></p>
+<p>Now your Git repo is ready. Based on the nature of your project you might want some files not to be part of your project's history; these might be build, log files ... Happily, for this purpose Git supports a special file called <code>gitignore</code> which specifies intentionally untracked files to ignore. When decicing what files or directories to ignore Git checks the patterns specified by <code>gitignore</code>. These are a couple of the patterns:</p>
+<ul>
+<li>Wild cards can be used to ignore a category of files (eg: <code>*.debug</code> ignores all the files ending with .debug)</li>
+<li>An entire directory can be ignored (eg: <code>logs/</code> ignores all the files and subdirectories under the <code>log</code> directory)</li>
+<li>To learn more on <code>gitignore</code> and the patterns you can visit <a href="https://git-scm.com/docs/gitignore">https://git-scm.com/docs/gitignore</a> or <a href="https://gitignore.io/">https://gitignore.io/</a></li>
+</ul>
+<p>Now Let's focus on the business of this post: Git's basics and local operations:
+Git has 3 conceptual areas or states WORKING DIRECTORY, STAGING AREA and HISTORY.</p>
+<ol>
+<li>
+<p><strong>WORKING DIRECTORY</strong></p>
+<ul>
+<li>Once the repository is created with <code>git init</code>, you are in the WORKING DIRECTORY. The working Directory corresponds to what you see in the file system; it is in the Working Directory state that you add, modify and delete files. </li>
+<li>Let's create a project called <code>farm</code>, and on the command line we run <code>git init</code> to initialize the repository. Next, we add  a file called <code>fruits.txt</code> containing <code>apples</code> to the <code>farm</code> project.  At this point running <code>git status</code> shows the state of the working dictory, <code>fruits.txt</code> is listed under untracted files.
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7b05bd4db0e9d4d074c77049490f51a0/c9a4a/Git-basics-SCREENSHOT1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.209150326797385%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA2ElEQVQoz3WRWQ7DIAxEOUj2PYGo2aTk/hdzeW4tRV0+RsbgGYbB1XUtXdcJFTRNoz11GAbp+16SJFHQL8si4ziK9157ZqdpkqqqpG1bcRyc5ynXdcm+70o4jkO2bVOs66qiEE3oXhEDzJRlKY5bjMyAOWTA1gzmef6FoigUtk7T9CWIqzDPUkbbWZYpfpER5gziPzgGu/h2H50MsUJiD3dkSi5WcYsgeUK2y+9wEKf41EfMwUe39hHkwprzu6j1XPxLVAVHgn3/GmIghKA9Q5aV5QXs6Z+CT2nXxxHCYsLFAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT1"
+        title="Git basics SCREENSHOT1"
+        src="/static/7b05bd4db0e9d4d074c77049490f51a0/b9e4f/Git-basics-SCREENSHOT1.png"
+        srcset="/static/7b05bd4db0e9d4d074c77049490f51a0/cf440/Git-basics-SCREENSHOT1.png 148w,
+/static/7b05bd4db0e9d4d074c77049490f51a0/d2d38/Git-basics-SCREENSHOT1.png 295w,
+/static/7b05bd4db0e9d4d074c77049490f51a0/b9e4f/Git-basics-SCREENSHOT1.png 590w,
+/static/7b05bd4db0e9d4d074c77049490f51a0/f9b6a/Git-basics-SCREENSHOT1.png 885w,
+/static/7b05bd4db0e9d4d074c77049490f51a0/2d849/Git-basics-SCREENSHOT1.png 1180w,
+/static/7b05bd4db0e9d4d074c77049490f51a0/c9a4a/Git-basics-SCREENSHOT1.png 1530w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span>
+The next step in the process is to stage the change (move it to the Staging Area)</li>
+</ul>
+</li>
+<li>
+<p><strong>STAGING AREA</strong></p>
+<ul>
+<li>By definition, the staging area is simply a cache of files you want to go into your next commit, which sometimes referred to as the INDEX.
+You might wonder: Is this exrtra step important? Suppose you're working on two features, one of the features is finished, and  the other still needs some work to be done; and before you clock out for the day and go home you would like to make a commit,  but you would not want to commit the parts of the second feature, which is in progress not done yet. In this situation Git becomes your best friend, you stage the changes you know belong to feature #1 and commit them. Feature #1 is done while the changes for feature #2 are still in progress in your working directory waiting for you in the morning... Metaphorically the Staging Area is the reception desk at the library, you put the files there for the librarian to prepare for filing into the library.</li>
+<li>Changes are staged from the working directory with the <code>git add</code> command. <code>git add .</code> adds all the working directory's new files and modifications; but you can also selectively stage just specific changes you want to be part of your next commit, which adds only those changes to the staging area. Eg: <code>git add fruits.txt</code> will specify stage the new <code>fruits.txt</code>. At point running <code>git status</code> shows that the changes have been staged.</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/cae8e07592b35a55caa59b6133e56d25/423ff/Git-basics-SCREENSHOT2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 41.43426294820717%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAy0lEQVQoz5WRWw6EIAxF2YdPEEFQotHEH/e/rk5vE4zRzMT5OBa1PVxRWWspxkje+5MQAg3DIM/neaa6rqmqKqmZsixpHEfatk1qSklmFIb3fafjOGhdV3k5TZOI0IR7rfUpRM1rSIuikJpRfd+LAHYM5sYrV1lOeE+cUfjkZVloZOmUOBmve+fIGENd18lGTdM8BF+FDV80D+vgSDsrmOjJsAzp27b9KXgIkcRxIiRBhcQyjsFPucreSBWa7meWwYH/IxPhm6a3MvABuobdpHZuWRUAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT2"
+        title="Git basics SCREENSHOT2"
+        src="/static/cae8e07592b35a55caa59b6133e56d25/b9e4f/Git-basics-SCREENSHOT2.png"
+        srcset="/static/cae8e07592b35a55caa59b6133e56d25/cf440/Git-basics-SCREENSHOT2.png 148w,
+/static/cae8e07592b35a55caa59b6133e56d25/d2d38/Git-basics-SCREENSHOT2.png 295w,
+/static/cae8e07592b35a55caa59b6133e56d25/b9e4f/Git-basics-SCREENSHOT2.png 590w,
+/static/cae8e07592b35a55caa59b6133e56d25/f9b6a/Git-basics-SCREENSHOT2.png 885w,
+/static/cae8e07592b35a55caa59b6133e56d25/2d849/Git-basics-SCREENSHOT2.png 1180w,
+/static/cae8e07592b35a55caa59b6133e56d25/423ff/Git-basics-SCREENSHOT2.png 1506w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<p>What's next? Committing to the repo's history</p>
+</li>
+<li>
+<p><strong>HISTORY</strong></p>
+<ul>
+<li>History means that a permanent snapshot of your changes has been created in the Git database. Changes are moved from the staging Area to History with the <code>git commit</code> command. When committing the <code>-m</code> option allows to add a message for the change; if you don't provide the <code>-m</code> option, Git will open your default text editor so that you can enter a detailed even multi-lined message.</li>
+<li>After committing the changes, the 3 states are in sync, running <code>git status</code> will give you <code>clean</code></li>
+<li>Normally you commit when you want to save the state of your project's files at a particular point time, the best practice is that a commit should be meaningful representing a logical unit of work with some purpose.</li>
+<li>
+<p>The <code>Commit graph</code>  consists of the history of commits, all the snapshots of the project over time</p>
+<ul>
+<li>To have more than one commit in our <code>farm</code> project, let add a new file <code>vegetables.txt</code>, stage and commit it.</li>
+<li>
+<p>You can view the history with the <code>git log</code> command.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/62ae2c7f1993c0808113cdb492de28c1/5c8bc/Git-basics-SCREENSHOT3.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 47.696476964769644%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABRElEQVQoz5WSaW6DMBCFOUeCFwg2GDCLWUKUpFEUKfe/0euYNLRV6fbj04wlz/Ob8QRFkSPPc2RZNuNzjzEGXecQRRGEEJBSQngof9L3PZqmQVEUqOsaWmsE+/2E8/kFwzBiHPfwZx/9ua4baKWhlFoe9LnHP7DdbhGGIRhjSwymacDxOJFQj8NhnGlbi6oqCINExWBCgkkBLvlc9IRz/gUStLjdOlyvHU6nCpdLi/t9oFjjfDLIyh1YWoLnGsLswL3YitAiqJSfm6WZlTNpWhA5kkRjs+HUCl1k4buzD8VrLgPnEmpX09wSajUiJKxlBIejXGv2EF2KvPAPDssyo9+qSdDBuYp+tqI5DvMcjVH0y+Kzk99ablsHj7XVjNYptZyhLO3sJAzZt+2tCi479rZbUj5iHMdz/KvQIvhxDdb4jzvPKwhNHKgytFMHAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT3"
+        title="Git basics SCREENSHOT3"
+        src="/static/62ae2c7f1993c0808113cdb492de28c1/b9e4f/Git-basics-SCREENSHOT3.png"
+        srcset="/static/62ae2c7f1993c0808113cdb492de28c1/cf440/Git-basics-SCREENSHOT3.png 148w,
+/static/62ae2c7f1993c0808113cdb492de28c1/d2d38/Git-basics-SCREENSHOT3.png 295w,
+/static/62ae2c7f1993c0808113cdb492de28c1/b9e4f/Git-basics-SCREENSHOT3.png 590w,
+/static/62ae2c7f1993c0808113cdb492de28c1/f9b6a/Git-basics-SCREENSHOT3.png 885w,
+/static/62ae2c7f1993c0808113cdb492de28c1/2d849/Git-basics-SCREENSHOT3.png 1180w,
+/static/62ae2c7f1993c0808113cdb492de28c1/5c8bc/Git-basics-SCREENSHOT3.png 1476w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+</li>
+<li>
+<p>Importantly you can see only the commits that affected a parcular file with <code>git log -- filename</code></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/2a015cbcc5e2a1540d1710f3bf3f30c4/5cf6a/Git-basics-SCREENSHOT4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 38.15789473684211%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA50lEQVQoz5WQ23LCIBRF+Q/DLQiJCCUxJI7a/v9n7cKxtA/25sOaPcMc1rkw50YYY4m+N7B2ILQ28D6Utz2UENBKQZYUQhYEpJSYpgkppVLnEWOEcw5s2zzOZ4/r9YicR6zriNst4HLxeHsNOC0Wh7xhnBNMOhQZB+ecpMYYQmtNqUpTllIoXY5FumBZEpHzRHhvsbcaXFXKZFp+CAVl13VEbdCSxfhSPq+Y5xNCiMQwjJRa99jtOog6Eb9P1mSC1n+E1Vs07rcRNHpdo7619b5o0h+E/LPz99SiR+kfwt8KnpH9S/gs7y4u3xGQvhiwAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT4"
+        title="Git basics SCREENSHOT4"
+        src="/static/2a015cbcc5e2a1540d1710f3bf3f30c4/b9e4f/Git-basics-SCREENSHOT4.png"
+        srcset="/static/2a015cbcc5e2a1540d1710f3bf3f30c4/cf440/Git-basics-SCREENSHOT4.png 148w,
+/static/2a015cbcc5e2a1540d1710f3bf3f30c4/d2d38/Git-basics-SCREENSHOT4.png 295w,
+/static/2a015cbcc5e2a1540d1710f3bf3f30c4/b9e4f/Git-basics-SCREENSHOT4.png 590w,
+/static/2a015cbcc5e2a1540d1710f3bf3f30c4/f9b6a/Git-basics-SCREENSHOT4.png 885w,
+/static/2a015cbcc5e2a1540d1710f3bf3f30c4/2d849/Git-basics-SCREENSHOT4.png 1180w,
+/static/2a015cbcc5e2a1540d1710f3bf3f30c4/5cf6a/Git-basics-SCREENSHOT4.png 1520w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+</li>
+<li>See the difference between the last commit of a single file with the command
+<code>git log -p -1 filename</code>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c0e61acae2355d759c839cb832aafbf5/2b4d9/Git-basics-SCREENSHOT5.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 43.386243386243386%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABAUlEQVQoz5WRTXKDMAyFuQdgTPEPAYxpmW6IQzJh0fb+B3q11JIh7TRpFs+SmNH3JJRYW0MpjaoiKRhjWJR3neMopURZliiKAkIIFtXjOMJ7j7ZtOSqlkOz3A+bZY1lGHI89Dof+O39BCA7DQEYVmxA4z/OLqCaTVWSUNI0Fqe/JpY1uNZxruNb6KTYJZFnGIsg64Ra8VeJcH5t9nOQZlBtjI8jwSl8QcYGsoG39U8n5dMLH+1tcc8E0TQyiFSn+htyGMdCHgNcwQ9c1RGykqdI0vVrx3lRXQDV0sLsdbAQao/nn1zGnq61H+C+MgTI+1Cg31yLRt0enY+Bf11r1KPQT/pD8mqtik+YAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT5"
+        title="Git basics SCREENSHOT5"
+        src="/static/c0e61acae2355d759c839cb832aafbf5/b9e4f/Git-basics-SCREENSHOT5.png"
+        srcset="/static/c0e61acae2355d759c839cb832aafbf5/cf440/Git-basics-SCREENSHOT5.png 148w,
+/static/c0e61acae2355d759c839cb832aafbf5/d2d38/Git-basics-SCREENSHOT5.png 295w,
+/static/c0e61acae2355d759c839cb832aafbf5/b9e4f/Git-basics-SCREENSHOT5.png 590w,
+/static/c0e61acae2355d759c839cb832aafbf5/f9b6a/Git-basics-SCREENSHOT5.png 885w,
+/static/c0e61acae2355d759c839cb832aafbf5/2d849/Git-basics-SCREENSHOT5.png 1180w,
+/static/c0e61acae2355d759c839cb832aafbf5/2b4d9/Git-basics-SCREENSHOT5.png 1512w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></li>
+<li>
+<p><code>git log</code> has several useful options, below are some of them</p>
+<ul>
+<li><code>--graph</code>: draws a text-based graphical representation of the commit history on the left hand side of the output. <code>--graph</code> gives you that visual representation but in the terminal. While it might not look as slick as some Git GUIs, it does have the benefit of being consistently viewed anywhere and much more configurable to your specific needs.
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6500b4c886cb2d68fb51965e4a3d731e/423ff/Git-basics-SCREENSHOT6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 42.49667994687915%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABHElEQVQoz32RWXLCMBBEfQ+sXba14Q1I2O5/rc6MoAihCB9dM1JJT9OtxjmHvg/wvoNzN/X9UGvXDQghQSkNJQWkYElaKwjqSylYlgUppdrHGNGE0OP4XfD1lXE6JaqRlHC5FFyvBedzxLqPMHmECB5qsBXGMsaAB+LK0lqj6Z3FNBZstxn7/YJ1nenVqdZ1nTAMHtrQRNpAGg2p1W1SKSu0bdvHA6zG0oGcPOY5ECBimjqCexpfkXVFlhW8o8vtzXK9eIcx9FVN13nsdpmAA47HsepwYKsz9TPt95Sl+gu4Q98C2XvOHO5KwY7Ub8lmqB8SY8Jmw7Z+LQrxHvQA8o8x1FoOVtdgWdxba+8HxdOE4jPwOdD/JD9k9qofsijhyzpfhIQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT6"
+        title="Git basics SCREENSHOT6"
+        src="/static/6500b4c886cb2d68fb51965e4a3d731e/b9e4f/Git-basics-SCREENSHOT6.png"
+        srcset="/static/6500b4c886cb2d68fb51965e4a3d731e/cf440/Git-basics-SCREENSHOT6.png 148w,
+/static/6500b4c886cb2d68fb51965e4a3d731e/d2d38/Git-basics-SCREENSHOT6.png 295w,
+/static/6500b4c886cb2d68fb51965e4a3d731e/b9e4f/Git-basics-SCREENSHOT6.png 590w,
+/static/6500b4c886cb2d68fb51965e4a3d731e/f9b6a/Git-basics-SCREENSHOT6.png 885w,
+/static/6500b4c886cb2d68fb51965e4a3d731e/2d849/Git-basics-SCREENSHOT6.png 1180w,
+/static/6500b4c886cb2d68fb51965e4a3d731e/423ff/Git-basics-SCREENSHOT6.png 1506w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></li>
+<li>
+<p><code>--no-decorate</code>, <code>--decorate[=short|full|no]</code>: Prints out the ref names of any commits that are shown. If <code>short</code> is specified, the ref name prefixes, refs/heads/, refs/tags/ and refs/remotes/ will not be printed. If <code>--full</code> is specified, the full ref name will be printed, the  default option is short. You might want more information than that, though, like which branch was that commit on? Where are the tags? The <code>--decorate</code> flag provides this.
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/976d4e6aa021a3dd5a1256f8adb11a43/8e846/Git-basics-SCREENSHOT7.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 37.46666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+UlEQVQoz42R226DMBBE+Q+wg2PX2PgCBJImUV7y/x81HaxQpZdUfRiNVto9nl1X1hoMQ0RKHjE6hNAh5561K77MGdZZWO9h6HInIaVE0zTsDZjnuXhKCZ49Vc4dlsXjfI643TIul4jrNeF+n0r9fjJwBO9jhuIjO91CCvEJreu6+KZKKQ3neqYb+FIu6roeWlu0reYAB+sGgoNidcIEYeIB/a7K+z2myeB4tEzn6G84nWzR4WAoRfgKeBp8QF8A15sFjGMiOBMwso70gXcJMEaVxleJfgDbVnHN9VMy+j5wXcdEmuLtnC/JNth/oNXW+KzfGr+s/Ic+AIClxrpCtHfgAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT7"
+        title="Git basics SCREENSHOT7"
+        src="/static/976d4e6aa021a3dd5a1256f8adb11a43/b9e4f/Git-basics-SCREENSHOT7.png"
+        srcset="/static/976d4e6aa021a3dd5a1256f8adb11a43/cf440/Git-basics-SCREENSHOT7.png 148w,
+/static/976d4e6aa021a3dd5a1256f8adb11a43/d2d38/Git-basics-SCREENSHOT7.png 295w,
+/static/976d4e6aa021a3dd5a1256f8adb11a43/b9e4f/Git-basics-SCREENSHOT7.png 590w,
+/static/976d4e6aa021a3dd5a1256f8adb11a43/f9b6a/Git-basics-SCREENSHOT7.png 885w,
+/static/976d4e6aa021a3dd5a1256f8adb11a43/2d849/Git-basics-SCREENSHOT7.png 1180w,
+/static/976d4e6aa021a3dd5a1256f8adb11a43/8e846/Git-basics-SCREENSHOT7.png 1500w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f70f5cdcec7a2f49aada082a413defeb/40920/Git-basics-SCREENSHOT8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.729222520107236%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABCElEQVQoz4VR0W6DMAzMd3SNQwokARIKqUDqkNqH/v833eywaVM7bQ+nO1B8Ptuqrhs459E0DUQLe++L9j6g7wfYqoK1FpUxIK1hNEEzp5SQc8YwDEV3XQe1LBHX64j7fS7YtoTbbcbjceHvCdt7h3g5w08ZdQrQyYOiA50MDDeQRsJfUCE4hOBLlxhjwa4HTuj4EachwpEMNGs6VSDLMHvKZyjnCPPcYF09w7GuMU2WTTXDYBwlxf5YxtXH72LiRs9QKcn8Pe9ixLLMhQXrmnE+R05Z7yn1a/FvpqptWy6cOFnmMROninyYthwjhA6Hw9ufBi+GPxcqkJ/CVbks74r0pxn9ayb4AJeox05YNo/SAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT8"
+        title="Git basics SCREENSHOT8"
+        src="/static/f70f5cdcec7a2f49aada082a413defeb/b9e4f/Git-basics-SCREENSHOT8.png"
+        srcset="/static/f70f5cdcec7a2f49aada082a413defeb/cf440/Git-basics-SCREENSHOT8.png 148w,
+/static/f70f5cdcec7a2f49aada082a413defeb/d2d38/Git-basics-SCREENSHOT8.png 295w,
+/static/f70f5cdcec7a2f49aada082a413defeb/b9e4f/Git-basics-SCREENSHOT8.png 590w,
+/static/f70f5cdcec7a2f49aada082a413defeb/f9b6a/Git-basics-SCREENSHOT8.png 885w,
+/static/f70f5cdcec7a2f49aada082a413defeb/2d849/Git-basics-SCREENSHOT8.png 1180w,
+/static/f70f5cdcec7a2f49aada082a413defeb/40920/Git-basics-SCREENSHOT8.png 1492w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/65e5424752e9942f56d8fdde39c0612b/321df/Git-basics-SCREENSHOT9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 34.437086092715234%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+0lEQVQoz4VR2W6EMBDjQyCQhCPNRYG9j///LNfDilW3q7YPlpNR4rFnCmMs+t7B2m6FMS26bkDb9rz38D6haTTrhtxAKYW6rlFVFf/1WJYFIQTEGFcuQuhwPEaczxGXS+T5A6dTwP2ecb1G3G7yuMMwuFVUhERUWBpYa6G1fqJwbkBKAeOYMM+f3zCyFunCUqBCWZYvYhtv9Q2F1mp1MM+O9h1ytmxg4ZxEUoxc04V8Vm9iwj/ByA7T5CnocThkRs7Y7xPjT9jtEhvIXH8XeBOUpeQ8UnShs5HI65JkZt5HRlLE365eBGVjMtzHUBueH3dha81zo1vk//AFnPzG/wcqup0AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT9"
+        title="Git basics SCREENSHOT9"
+        src="/static/65e5424752e9942f56d8fdde39c0612b/b9e4f/Git-basics-SCREENSHOT9.png"
+        srcset="/static/65e5424752e9942f56d8fdde39c0612b/cf440/Git-basics-SCREENSHOT9.png 148w,
+/static/65e5424752e9942f56d8fdde39c0612b/d2d38/Git-basics-SCREENSHOT9.png 295w,
+/static/65e5424752e9942f56d8fdde39c0612b/b9e4f/Git-basics-SCREENSHOT9.png 590w,
+/static/65e5424752e9942f56d8fdde39c0612b/f9b6a/Git-basics-SCREENSHOT9.png 885w,
+/static/65e5424752e9942f56d8fdde39c0612b/2d849/Git-basics-SCREENSHOT9.png 1180w,
+/static/65e5424752e9942f56d8fdde39c0612b/321df/Git-basics-SCREENSHOT9.png 1510w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+</li>
+<li><code>--oneline</code>:  shorthand for <code>--pretty=oneline --abbrev-commit</code> used together. Most of the time you don't care about the author or the date in order to see more commits per screen. <code>--oneline</code> prints  only show the commit id and comment per commit.</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/d490b5498f3adaa1aa33cb867ab8b898/7d252/Git-basics-SCREENSHOT10.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 26.436781609195403%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAo0lEQVQY04WOUQ6DIBBEuYeIBFAii1qLbRPT+19rypJotLHpx8tkmWF2hTEObevhrMnYQtd1sFn7vs9eC601mqaBUmpX9ud5RgihQEQlK8bBYn1HjK8V9EyIy4QlJaQMf4gxlgVcVNf1Ds/OORhjdvhNEGksD4/hdgdNI0Kkchlv9d6fSviyDZ6llCefEVIqVFUOsLnxFTqWHPUKodS1+avsHx/oMouHNhUx7gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT10"
+        title="Git basics SCREENSHOT10"
+        src="/static/d490b5498f3adaa1aa33cb867ab8b898/b9e4f/Git-basics-SCREENSHOT10.png"
+        srcset="/static/d490b5498f3adaa1aa33cb867ab8b898/cf440/Git-basics-SCREENSHOT10.png 148w,
+/static/d490b5498f3adaa1aa33cb867ab8b898/d2d38/Git-basics-SCREENSHOT10.png 295w,
+/static/d490b5498f3adaa1aa33cb867ab8b898/b9e4f/Git-basics-SCREENSHOT10.png 590w,
+/static/d490b5498f3adaa1aa33cb867ab8b898/f9b6a/Git-basics-SCREENSHOT10.png 885w,
+/static/d490b5498f3adaa1aa33cb867ab8b898/2d849/Git-basics-SCREENSHOT10.png 1180w,
+/static/d490b5498f3adaa1aa33cb867ab8b898/7d252/Git-basics-SCREENSHOT10.png 1566w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p><code>--stat</code> gives useful information about what changed:  the number of lines that were changed, with insertions represented by a <code>+</code> sign, and deletions by a <code>-</code>. There is no concept of a <code>change</code> to a line as such, the old line is deleted and then the new one added even if only one character changed.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/489af23be1487c01ba3e0f4a4b8c3938/d654f/Git-basics-SCREENSHOT11.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 45.09283819628647%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABQElEQVQoz4WSa3KDMAyEOQjYBgzGNk6BvNokM7n/qbYrk6SPSdMfOxKM/Gklu2iaFs4NsLZD267qe5dj1zkMPsJoDa0qqIpSCprfFfNxHDHPM0IIOffeo4ixw+EQ8f4uCsw9jseAy2XE6UR9DAhzghoCVLDQzQoT1XXNxm2OImMMCu8d6R7TlLDbTdhuJyzLG/b7CZtNoNsayhDCYlVrKK0eTgValuWjgajQ2iDGhJQmWh455oCmsSzkYWVYRFC1Qu6H7jCJv1VYW9Nd5C4CHTnuo2UDS3gDWUdKPRuYnwABP4FlYEoDR3S3vSWcz6INrteF/2TpDfcjzuRA9aezB1BGds5nWd6qtW4dk+PK2GWpvsHUS9htZEuHC293jzGN+QnEGAlus9bCL4f/AuW6+76nQ5dj13VZksu7enUBz/QJovz+wo5LdgoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT11"
+        title="Git basics SCREENSHOT11"
+        src="/static/489af23be1487c01ba3e0f4a4b8c3938/b9e4f/Git-basics-SCREENSHOT11.png"
+        srcset="/static/489af23be1487c01ba3e0f4a4b8c3938/cf440/Git-basics-SCREENSHOT11.png 148w,
+/static/489af23be1487c01ba3e0f4a4b8c3938/d2d38/Git-basics-SCREENSHOT11.png 295w,
+/static/489af23be1487c01ba3e0f4a4b8c3938/b9e4f/Git-basics-SCREENSHOT11.png 590w,
+/static/489af23be1487c01ba3e0f4a4b8c3938/f9b6a/Git-basics-SCREENSHOT11.png 885w,
+/static/489af23be1487c01ba3e0f4a4b8c3938/2d849/Git-basics-SCREENSHOT11.png 1180w,
+/static/489af23be1487c01ba3e0f4a4b8c3938/d654f/Git-basics-SCREENSHOT11.png 1508w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+</li>
+<li>
+<p><code>--simplify-by-decoration</code>: Commits that are referred by some branch or tag are selected.
+If you are looking at the whole history of a project and just want to get a feel for its shape before diving in, you may want to see only the significant points of change
+These remove any commit that was not tagged or branched.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/386a80e9ebdbc30787d8429f928b4209/d654f/Git-basics-SCREENSHOT12.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 39.92042440318302%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABGUlEQVQoz42R626DMBSDeY/mSriEJDAoVVuV938u10lFNaZ12g/LiQTfsU+qunboOo+m6eBcW9R1ffG27TEMEUYbWENltxaGZyklYoxYlgUhBKSU4L1HFWOL6zXifs8KPA+43QK2LeFBbQ+PtI7o5xUd3aehwAWBGe6cK74PqrzvMY4R8zxhXReczzOnfhWfpoi2qaGMhmA6YRSEkiWdUqq4EOLglbWKcVtCBkI84Q3vDn2vWF2zhmYiQgQhGSTVG5b9p6qUfIGta2DlkZpYeWTlBZdLYsoGeaiU334kTP4CK0Bra6aaWPnMZBMXPZYHej1IwOl0rKg+gN5ArXVZaF3nxZqy2F154a8P5THhX8A89ZP2Rf83XdYTT7riDO1Zy2wAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT12"
+        title="Git basics SCREENSHOT12"
+        src="/static/386a80e9ebdbc30787d8429f928b4209/b9e4f/Git-basics-SCREENSHOT12.png"
+        srcset="/static/386a80e9ebdbc30787d8429f928b4209/cf440/Git-basics-SCREENSHOT12.png 148w,
+/static/386a80e9ebdbc30787d8429f928b4209/d2d38/Git-basics-SCREENSHOT12.png 295w,
+/static/386a80e9ebdbc30787d8429f928b4209/b9e4f/Git-basics-SCREENSHOT12.png 590w,
+/static/386a80e9ebdbc30787d8429f928b4209/f9b6a/Git-basics-SCREENSHOT12.png 885w,
+/static/386a80e9ebdbc30787d8429f928b4209/2d849/Git-basics-SCREENSHOT12.png 1180w,
+/static/386a80e9ebdbc30787d8429f928b4209/d654f/Git-basics-SCREENSHOT12.png 1508w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+</li>
+<li><code>git log grep</code> looks for commits that have specified strings in their commit log messages.
+For example <code>git log --grep=apple --grep=carrot</code> finds the commits that mentioned either "apple" or "carrot" in their commit log messages.  Like the usual grep command <code>git grep</code>, given more than one patterns means "this or that".
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/392c1868c309f61964ddd7f94f85b1e2/95139/Git-basics-SCREENSHOT13.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 38.79941434846266%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABPklEQVQoz3WS63KDIBCFfQ4DIuINULTRdJrbTDJ5/2c6PZCm07Tpj28WduV4diHTWsOYBkqV0NqkWFWGuRplWaVorUNRFJBig0JKiI1A23aYpok1m3DOoe97ZHVdseAxjg4hWHjfYhg67i3pE/PsYV0HOwbUXYvWxdycaJqG4m3CGINsHDvs9x7r2uN6nXC5TDidBhyPAbfbgvM54OOjwxAMdFhQUkxPRCsIQbdCPJHF9rqODuxIyyOtz3S8pn3TOB5skecKm1xCbnIi7rD1OIbfZMZItlrSfkmXFYnREM18wZYLbLeKP6Og/Csgi2fhzDnLAyHNcbeb2d5CsSlxOLynWpxrVakfrl67S4Jax0uZsSwr41taO+fTLcbb9X74mtVdJIq+cvotqJTi8ygT8Qk91g/qukb85nlm/zv8BLWs5T4TpEb5AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT13"
+        title="Git basics SCREENSHOT13"
+        src="/static/392c1868c309f61964ddd7f94f85b1e2/b9e4f/Git-basics-SCREENSHOT13.png"
+        srcset="/static/392c1868c309f61964ddd7f94f85b1e2/cf440/Git-basics-SCREENSHOT13.png 148w,
+/static/392c1868c309f61964ddd7f94f85b1e2/d2d38/Git-basics-SCREENSHOT13.png 295w,
+/static/392c1868c309f61964ddd7f94f85b1e2/b9e4f/Git-basics-SCREENSHOT13.png 590w,
+/static/392c1868c309f61964ddd7f94f85b1e2/f9b6a/Git-basics-SCREENSHOT13.png 885w,
+/static/392c1868c309f61964ddd7f94f85b1e2/2d849/Git-basics-SCREENSHOT13.png 1180w,
+/static/392c1868c309f61964ddd7f94f85b1e2/95139/Git-basics-SCREENSHOT13.png 1366w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span>
+Two options, "--author=name" and "--committer=name" are also supported internally with the same "grep" mechanism.  You can ask: <code>git log --grep=fruit --author=Vivens</code></li>
+</ul>
+</li>
+<li>For more options for <code>git log</code> refer to <a href="https://git-scm.com/docs/git-log">https://git-scm.com/docs/git-log</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Once you understand these <strong>3 conceptual areas</strong> and how changes move from one state to the next, you can easily grasp some other essential Git operations that you will often need as part of your development workflow</p>
+<h2>View and comparing changes</h2>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/dbcfda00c2f7af7fbf816fbeb475ff7a/971c4/view-and-comparing-changes.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 54.300000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAepZiZVjcP/EABsQAAEEAwAAAAAAAAAAAAAAAAIAAQMSEBET/9oACAEBAAEFAu7XlloIzC46xUV//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMBAQEAAAAAAAAAAAAAAAABETEQQf/aAAgBAQAGPwKeFWirj7iP/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSFh8f/aAAgBAQABPyF1D3cHiqy44FR0gBwiCUlk+FP/2gAMAwEAAgADAAAAEOAv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAwEBPxAQdyXi/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERIVH/2gAIAQIBAT8Qh6Wf/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAIVExYXH/2gAIAQEAAT8QGeSndfnnUogQEJclaiDY6kCewzsScIlHBEDD13//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="view and comparing changes"
+        title="view and comparing changes"
+        src="/static/dbcfda00c2f7af7fbf816fbeb475ff7a/c739e/view-and-comparing-changes.jpg"
+        srcset="/static/dbcfda00c2f7af7fbf816fbeb475ff7a/8ee9c/view-and-comparing-changes.jpg 148w,
+/static/dbcfda00c2f7af7fbf816fbeb475ff7a/ebbe7/view-and-comparing-changes.jpg 295w,
+/static/dbcfda00c2f7af7fbf816fbeb475ff7a/c739e/view-and-comparing-changes.jpg 590w,
+/static/dbcfda00c2f7af7fbf816fbeb475ff7a/5413e/view-and-comparing-changes.jpg 885w,
+/static/dbcfda00c2f7af7fbf816fbeb475ff7a/971c4/view-and-comparing-changes.jpg 1000w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<ol>
+<li>
+<p>First, Git allows comparing  differences beetween the <code>Working Directory</code> and <code>Staging Area</code>. This is accomplished by running the <code>git diff</code> command</p>
+<ul>
+<li>
+<p>In the <code>farm</code> project, let add <code>mango</code> to the <code>fruits.txt</code> file</p>
+<ul>
+<li><code>git status</code> shows that the file has been changed, by running <code>git diff</code> we see the details of the change
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f4d7892999f66b68950eed8b7e6ff7da/a83f2/Git-basics-SCREENSHOT14.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 38.41726618705036%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA3ElEQVQoz5WR6QrCQAyE+x697W0v2i1qrbRS3/+ZxmYgKiKiP8IMIfl2k1hhGCIIAvi+zxAvOfVpmlI9z2NONI5jVFWFPM+RZRk1SRL2WU3TQKJtW5RlycK6rmGMoe/7nsWO4xAmGkUR61+B8jCBl2nCbV1xXRbM84xxHLFsXhqkyHVdglTV27ZN+GtI3jLHEef5isN0IUAaZERtkKJ3mPpPYeWnAdG+gBvuHnvU0RT4C+gBrNsGwzDAbLuSMXWXRVGg6zo+8CuMQF7Pe/5Mr6nX/ud3BOqOvsU/0DtnEuBQBF6C5gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT14"
+        title="Git basics SCREENSHOT14"
+        src="/static/f4d7892999f66b68950eed8b7e6ff7da/b9e4f/Git-basics-SCREENSHOT14.png"
+        srcset="/static/f4d7892999f66b68950eed8b7e6ff7da/cf440/Git-basics-SCREENSHOT14.png 148w,
+/static/f4d7892999f66b68950eed8b7e6ff7da/d2d38/Git-basics-SCREENSHOT14.png 295w,
+/static/f4d7892999f66b68950eed8b7e6ff7da/b9e4f/Git-basics-SCREENSHOT14.png 590w,
+/static/f4d7892999f66b68950eed8b7e6ff7da/f9b6a/Git-basics-SCREENSHOT14.png 885w,
+/static/f4d7892999f66b68950eed8b7e6ff7da/2d849/Git-basics-SCREENSHOT14.png 1180w,
+/static/f4d7892999f66b68950eed8b7e6ff7da/a83f2/Git-basics-SCREENSHOT14.png 1390w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Second, Git allows comparing changes betweeen the <code>Staging Area</code> and <code>History</code>. This is accomplished by the <code>git diff --staged</code> command.  Note the <code>--staged</code> option</li>
+<li>
+<p>In our farm project, let's stage the <code>fruits.txt</code> change: <code>git add fruits.txt</code></p>
+<ul>
+<li>Running <code>git diff --staged</code> shows the difference between staging and the last commit's of history
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/28ba10308a946ab9ec82a191a9365324/3c632/Git-basics-SCREENSHOT15.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 34.54545454545455%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA6ElEQVQoz41Q7W6DMBDLe/D9NTQCNAQi0AiVuu79X8nFpzKhTVr3w7rjuHNsqzzPUdc1WMuylFpVlSDLMrRtK/MoipAkiVStNaZpkn9d10klB+eqaRpMzmGeZ1kyxmAYBizLIt/jOMoR5yQOw1AeKooCaZpKTxy9MuaCz9sNX/c7tm3Duq7w3sNaK69SVRzHsnwoJEh89GeoWndwHx7OX6F3JfHTGg+CIPh1QPK/oAr9jsZZ5LudbM+v2MEcSUobXDoTvSJV5VuFy2Bg99z6vpeAGS7tMjtmRbWvlH0THnn8xKHkPzbPeABMmcZ2eFmMzgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT15"
+        title="Git basics SCREENSHOT15"
+        src="/static/28ba10308a946ab9ec82a191a9365324/b9e4f/Git-basics-SCREENSHOT15.png"
+        srcset="/static/28ba10308a946ab9ec82a191a9365324/cf440/Git-basics-SCREENSHOT15.png 148w,
+/static/28ba10308a946ab9ec82a191a9365324/d2d38/Git-basics-SCREENSHOT15.png 295w,
+/static/28ba10308a946ab9ec82a191a9365324/b9e4f/Git-basics-SCREENSHOT15.png 590w,
+/static/28ba10308a946ab9ec82a191a9365324/f9b6a/Git-basics-SCREENSHOT15.png 885w,
+/static/28ba10308a946ab9ec82a191a9365324/2d849/Git-basics-SCREENSHOT15.png 1180w,
+/static/28ba10308a946ab9ec82a191a9365324/3c632/Git-basics-SCREENSHOT15.png 1430w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ol>
+<h2>Undoing Changes</h2>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 576px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5130d280125e4814183758cb9146d4d3/4c1fd/undoing-changes.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 43.75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGkxSVqGif/xAAaEAACAgMAAAAAAAAAAAAAAAAABAESAgMz/9oACAEBAAEFAmbU1ZRUZFuh/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQMBAT8Bh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAEEAwAAAAAAAAAAAAAAAAIAARAhEkGB/9oACAEBAAY/AsR2gFrqBXI//8QAGhAAAgMBAQAAAAAAAAAAAAAAATEQEUEA8P/aAAgBAQABPyEyS2drgiRs0zvXH//aAAwDAQACAAMAAAAQhw//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8QML//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QTEZ//8QAGxABAQACAwEAAAAAAAAAAAAAAREAYRAhocH/2gAIAQEAAT8QDKCC07ChuYnBqVYbXvXH0z3uH//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="undoing changes"
+        title="undoing changes"
+        src="/static/5130d280125e4814183758cb9146d4d3/4c1fd/undoing-changes.jpg"
+        srcset="/static/5130d280125e4814183758cb9146d4d3/8ee9c/undoing-changes.jpg 148w,
+/static/5130d280125e4814183758cb9146d4d3/ebbe7/undoing-changes.jpg 295w,
+/static/5130d280125e4814183758cb9146d4d3/4c1fd/undoing-changes.jpg 576w"
+        sizes="(max-width: 576px) 100vw, 576px"
+      />
+  </a>
+    </span></p>
+<p>Developers often need to undo changes and restore to an earlier version of a file. Git solves the problem of stressing about losing earlier changes; you can freely experiement with different solutions, design patterns before choosing what is best for the problem at hand. Again Git is the friend that offers the freedom to restore previous changes whenever you need to. </p>
+<ol>
+<li>
+<p>First, we can undo a <code>Working Directory</code> change with what is in the <code>Staging Area</code></p>
+<ul>
+<li><code>git checkout -- filename</code> replaces a file in the <code>Working Area</code> with the staged version of the file.</li>
+<li>
+<p>To the <code>farm</code> project, let's  make a change to the <code>vegetables.txt</code> by adding <code>carrots</code></p>
+<ul>
+<li><code>git status</code> confirms the change was made</li>
+<li>
+<p>We no longer want <code>cabbage</code>, we run <code>git checkout -- vegetables.txt</code></p>
+<ul>
+<li>Are you sure the change is discared? <code>git status</code> and <code>git diff</code> are your go to detectives!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Note: In the Working Directory You can only undo changes of the files that were previously staged</li>
+</ul>
+</li>
+<li>
+<p>Second, we can undo a change in <code>Staging Area</code> with what is in <code>History</code> </p>
+<ul>
+<li>We override a staged change with what is in the last commit (HEAD) by running the command <code>git reset HEAD filename</code></li>
+<li>
+<p>For the<code>farm</code> project, we decide to add <code>asparagus</code> to <code>vegetables.txt</code> and we've already staged it. Oh! we realize we don't have the seeds to plant it and it must be removed.</p>
+<ul>
+<li>Running the command <code>git reset HEAD vegetables.txt</code></li>
+<li>If we run <code>git diff --staged</code> no difference</li>
+<li>
+<p>However the Working Directory still has <code>aspargus</code> in <code>vegetables.txt</code>; we can confirm this by running <code>git diff</code></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b0dbe9e05ebac7cf718b11e790bfc927/001cd/Git-basics-SCREENSHOT16.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 54.19440745672437%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABWUlEQVQoz3VSW3KDMAzkHnmBAWPeDoHQht7/WlutpsrQNvnYsWTwarVS4r1HnucoikLPqqrAu7Is0fc9sizD+XxWXC4XXK9XDMOAtm3RdR3qukYIAU3TIE1TJPM8Y5kXxDGilg9BCHmSmD8XeYHT6fQkZVHnnBYykMgKJzFGdOOAIY6I04QyVEhdpg+plKqOx6OSEoz3+V8kWqXxSEOJ1Bdwfa2xy50q2auhElP6DskkqrbHQ8F47MUf8SNUQX2kP1TKkzkVmwV7K56E67riU8jWjw+0XSvo1GAbDhXaw8Ph8KvdV6TJ7XZTZev9rlPjZAnGltNnTpZFCG7EW4W8rKQNLyjFo0bg5UMqOT0zsFXz0bx8SXgXZV/bhmVZdMcmAVVrLMp5cn0Yc/dIxraN4F/Lm5AR9NLaIwnBIXB9+MhU7kleKqQn4WeROQTNBfSPP5ia/a69IyO+AdH2OZzQ/hmfAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Git basics SCREENSHOT16"
+        title="Git basics SCREENSHOT16"
+        src="/static/b0dbe9e05ebac7cf718b11e790bfc927/b9e4f/Git-basics-SCREENSHOT16.png"
+        srcset="/static/b0dbe9e05ebac7cf718b11e790bfc927/cf440/Git-basics-SCREENSHOT16.png 148w,
+/static/b0dbe9e05ebac7cf718b11e790bfc927/d2d38/Git-basics-SCREENSHOT16.png 295w,
+/static/b0dbe9e05ebac7cf718b11e790bfc927/b9e4f/Git-basics-SCREENSHOT16.png 590w,
+/static/b0dbe9e05ebac7cf718b11e790bfc927/f9b6a/Git-basics-SCREENSHOT16.png 885w,
+/static/b0dbe9e05ebac7cf718b11e790bfc927/2d849/Git-basics-SCREENSHOT16.png 1180w,
+/static/b0dbe9e05ebac7cf718b11e790bfc927/001cd/Git-basics-SCREENSHOT16.png 1502w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>To have a clean Working Directory, we must run <code>git checkout -- vegetables.txt</code>.  Now the 3 areas, Working Directory, Staging Area and History are in sync</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Note: You can only unstage from history the changes for the files that have been previously committed.</li>
+</ul>
+</li>
+<li>
+<p>Further: We can restore a file from a specific earlier commit. It is accomplished with <code>git checkout &#x3C;commit hash> -- filename</code></p>
+<ul>
+<li>Back to <code>farm</code> project, let's add <code>peach</code> to <code>fruits.txt</code></li>
+<li>
+<p>Now the Working Directory has been changed, let's see the commits that have affected the <code>fruits.txt</code></p>
+<ul>
+<li>
+<p><code>git log -- fruits.txt</code></p>
+<ul>
+<li>we see and copy the hash for the first commit</li>
+</ul>
+</li>
+<li>
+<p><code>git checkout &#x3C;SHA 1> -- fruits.txt</code>. This updates both the working directory and the staging area</p>
+<ul>
+<li>When in doubt <code>git status</code> is your best friend, always use it.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2>Conclusion</h2>
+<p>We discussed why understanding the 3 conceptual areas or states of of Git, <code>Working Directory</code>, <code>Staging Area</code> &#x26; <code>History</code>, is the key to mastering the invaluable versionc control system.
+Based on this knowledge, you can grasp how to perform different Git Operations including viewing changes, comparing differences between the conceptual areas and undoing changes. Remember that Git commands are just mere tools; in whatever Git workflow if you understand the basic conceptual areas, you will know what you are doing and confidently choose the right comand.   No worries, Hakuna Matata. </p></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/git-basics-concepts";window.webpackCompilationHash="33e5f2421be15922d024";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-f007f4d9ad7518eaf536.js"],"component---src-templates-post-template-js":["/component---src-templates-post-template-js-aeee6a908777389fa681.js"],"component---src-pages-404-js":["/component---src-pages-404-js-f24102a80b17de656e09.js"],"component---src-pages-about-js":["/component---src-pages-about-js-f7ba94eefea747c0334c.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js-c22acbb244fa8e5490e8.js"],"component---src-pages-goals-js":["/component---src-pages-goals-js-73814e997341931f4c57.js"],"component---src-pages-index-js":["/component---src-pages-index-js-05c18e0794807a6d950e.js"],"component---src-pages-projects-js":["/component---src-pages-projects-js-daf346868d411a599c61.js"],"component---src-pages-reading-list-js":["/component---src-pages-reading-list-js-aeb5759dc00a358cd21f.js"]};/*]]>*/</script><script src="/webpack-runtime-84b0c65df1459d403b9e.js" async=""></script><script src="/app-f007f4d9ad7518eaf536.js" async=""></script><script src="/styles-56f6b483d0e1d83fdfc6.js" async=""></script><script src="/component---src-templates-post-template-js-aeee6a908777389fa681.js" async=""></script></body></html>
